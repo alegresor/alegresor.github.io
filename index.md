@@ -1,15 +1,11 @@
----
-layout: default
----
-
-# Hello World
+# Header 1
 
 some text 
 
-## Hello World 2
+## Header 2
 
-some more text 
+some text 
 
-### Example 3
+### Header 3
 
-even more text
+some text 
