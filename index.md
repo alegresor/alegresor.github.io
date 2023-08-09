@@ -11,25 +11,25 @@ layout: default
 
 2023 Los Alamos National Laboratory Student Symposium
 
-<embed src="./posters/2023_GP4DarcyPDE_LANL.pdf" type="application/pdf" width="1000" height="825"/>
+<embed src="./posters/2023_GP4DarcyPDE_LANL.pdf" type="application/pdf" width="1000" height="810"/>
 
 ## Credible Intervals for Probability of Failure with Gaussian Processes
 
 2022 IIT Welcome Week Student Research Poster Day
 
-<embed src="./posters/2023_PFGPCredibleIntervals_Own.pdf" type="application/pdf" width="1000" height="825"/>
+<embed src="./posters/2023_PFGPCredibleIntervals_Own.pdf" type="application/pdf" width="1000" height="810"/>
 
 ## Robust Approximation of Sensitivity Indices in QMCPy
 
 [2022 Conference on Sensitivity Analysis of Model Output (SAMO)](https://samo2022.math.fsu.edu/)
 
-<embed src="./posters/2022_SensitivityIndicesQMCPy_SAMO.pdf" type="application/pdf" width="1000" height="825"/>
+<embed src="./posters/2022_SensitivityIndicesQMCPy_SAMO.pdf" type="application/pdf" width="1000" height="810"/>
 
 ## QMCPy: Quasi-Monte Carlo Software in Python
 
 2021 Chicago Area Undergraduate Research Symposium
 
-<embed src="./posters/2021_QMCPy_CAURS.pdf" type="application/pdf" width="1000" height="825"/>
+<embed src="./posters/2021_QMCPy_CAURS.pdf" type="application/pdf" width="1000" height="810"/>
 
 
 ## Other Posters
