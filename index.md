@@ -2,10 +2,13 @@
 layout: default
 ---
 
-# Header 1
+<img src="./sorokin_photo.jpg" alt="photo" class="center">
+
+
+# Posters
 
 some text 
 
-## Header 2
+## Presentations
 
 some text 
