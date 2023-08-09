@@ -2,9 +2,6 @@
 layout: default
 ---
 
-# Contents
-{:.no_toc}
-
 * Will be replaced with the ToC, excluding the "Contents" header
 {:toc}
 
@@ -14,25 +11,25 @@ layout: default
 
 2023 Los Alamos National Laboratory Student Symposium
 
-<embed src="./posters/2023_GP4DarcyPDE_LANL.pdf" type="application/pdf" width="1000" height="800"/>
+<embed src="./posters/2023_GP4DarcyPDE_LANL.pdf" type="application/pdf" width="1000" height="825"/>
 
 ## Credible Intervals for Probability of Failure with Gaussian Processes
 
 2022 IIT Welcome Week Student Research Poster Day
 
-<embed src="./posters/2023_PFGPCredibleIntervals_Own.pdf" type="application/pdf" width="1000" height="800"/>
+<embed src="./posters/2023_PFGPCredibleIntervals_Own.pdf" type="application/pdf" width="1000" height="825"/>
 
 ## Robust Approximation of Sensitivity Indices in QMCPy
 
 [2022 Conference on Sensitivity Analysis of Model Output (SAMO)](https://samo2022.math.fsu.edu/)
 
-<embed src="./posters/2022_SensitivityIndicesQMCPy_SAMO.pdf" type="application/pdf" width="1000" height="800"/>
+<embed src="./posters/2022_SensitivityIndicesQMCPy_SAMO.pdf" type="application/pdf" width="1000" height="825"/>
 
 ## QMCPy: Quasi-Monte Carlo Software in Python
 
 2021 Chicago Area Undergraduate Research Symposium
 
-<embed src="./posters/2021_QMCPy_CAURS.pdf" type="application/pdf" width="1000" height="800"/>
+<embed src="./posters/2021_QMCPy_CAURS.pdf" type="application/pdf" width="1000" height="825"/>
 
 
 ## Other Posters
@@ -41,7 +38,7 @@ layout: default
 
 - [Multi-threaded/-processed Requests to Cloud Services for Intelligent Address Standardization](./posters/2019_PRLAS_SIAMCSE.pdf) @ [2019 SIAM Conference on Computational Science and Engineering](https://www.siam.org/conferences/cm/conference/cse19)
 
-## Presentations
+# Presentations
 
 ## Probabilistic Models for PDEs with Random Coefficients
 
