@@ -4,7 +4,8 @@ layout: default
 
 # Posters
 
-some text 
+<embed src="./posters/2023_PFGPCredibleIntervals_Own.pdf" width="500" height="375" 
+ type="application/pdf">
 
 ## Presentations
 
