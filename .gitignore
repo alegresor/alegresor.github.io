@@ -1,0 +1,16 @@
+*-blx.bib
+*.bbl
+*.blg
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.xdv
+*.nav
+*.snm
+*.bcf
+.vscode/*
