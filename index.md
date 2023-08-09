@@ -1,7 +1,11 @@
-## Header 2
+---
+layout: default
+---
+
+# Header 1
 
 some text 
 
-### Header 3
+## Header 2
 
 some text 
