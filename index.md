@@ -5,6 +5,29 @@ layout: default
 * Will be replaced with the ToC, excluding the "Contents" header
 {:toc}
 
+# Softwares
+
+## QMCPy
+
+[QMCPy](https://qmcpy.readthedocs.io/en/latest/md_rst/QMCSoftware.html) is a Python package for Quasi-Monte Carlo which includesquasi-random (low discrepancy) sequence generators, automatic variable transforms, adaptive stopping criteria, and a suite of diverse use cases. 
+
+```
+pip install qmcpy 
+```
+
+![image](./assets/ishigami.png)
+
+
+## QMCGenerators.jl
+
+[QMCGenerators.jl](https://alegresor.github.io/QMCGenerators.jl/stable/) is a Julia package for quasi-random (low discrepancy) sequence generators. Lattice and digital sequences, including higher order versions, are supported along with a variety of randomization routines. This is a translation and enhancement of Dirk Nuyens' [Magic Point Shop](https://people.cs.kuleuven.be/~dirk.nuyens/qmc-generators/). 
+
+```
+] add QMCGenerators
+```
+
+![image](./assets/qmcgenerators_logo.svg)
+
 # Posters
 
 ## Probabilistic Models for PDEs with Random Coefficients
