@@ -9,7 +9,7 @@ layout: default
 
 ## QMCPy
 
-[QMCPy](https://qmcpy.readthedocs.io/en/latest/md_rst/QMCSoftware.html) is a Python package for Quasi-Monte Carlo which includesquasi-random (low discrepancy) sequence generators, automatic variable transforms, adaptive stopping criteria, and a suite of diverse use cases. 
+[QMCPy](https://qmcpy.readthedocs.io/en/latest/md_rst/QMCSoftware.html) is a Python package for Quasi-Monte Carlo which includes quasi-random (low discrepancy) sequence generators, automatic variable transforms, adaptive stopping criteria, and a suite of diverse use cases. 
 
 ```
 pip install qmcpy 
@@ -27,6 +27,17 @@ pip install qmcpy
 ```
 
 ![image](./assets/qmcgenerators_logo.svg)
+
+## QuasiGaussianProcesses.jl
+
+[QuasiGaussianProcesses.jl](https://alegresor.github.io/QuasiGaussianProcesses.jl/stable) is a Julia package for fast construction and evaluation of Gaussian processes regression models when one controls the design of experiments. By choosing a design of $n$ quasi-random (low discrepancy) points and matching the GP covariance kernel, the cost is reduced from $\mathcal{O}(n^3)$ to $\mathcal{O}(n \log n)$. 
+
+```
+] add QuasiGaussianProcesses
+```
+
+![image](./assets/noisy_lattice_qgp.png)
+
 
 # Posters
 
