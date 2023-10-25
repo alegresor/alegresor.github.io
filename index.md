@@ -74,6 +74,12 @@ pip install qmcpy
 
 # Presentations
 
+## Fast Gaussian Process Regression with Derivative Information
+
+2023 Computational Math and Statistics Seminar at IIT
+
+<embed src="./presentations/2023_FastGPRDerivatives_CompMathIIT.pdf" type="application/pdf" width="1000" height="600"/>
+
 ## Probabilistic Models for PDEs with Random Coefficients
 
 2023 Los Alamos National Laboratory Student Lightening Talks
