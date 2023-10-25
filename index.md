@@ -49,7 +49,7 @@ pip install qmcpy
 
 ## Credible Intervals for Probability of Failure with Gaussian Processes
 
-2022 IIT Welcome Week Student Research Poster Day
+2022 Illinois Institute of Technology Welcome Week Student Research Poster Day
 
 <embed src="./posters/2023_PFGPCredibleIntervals_Own.pdf" type="application/pdf" width="1000" height="810"/>
 
@@ -76,7 +76,7 @@ pip install qmcpy
 
 ## Fast Gaussian Process Regression with Derivative Information
 
-2023 Computational Math and Statistics Seminar at IIT
+2023 Illinois Institute of Technology, Department of Applied Mathematics, Computational Mathematics Seminar 
 
 <embed src="./presentations/2023_FastGPRDerivatives_CompMathIIT.pdf" type="application/pdf" width="1000" height="600"/>
 
@@ -111,6 +111,6 @@ pip install qmcpy
 - [QMCPy, A Quasi-Monte Carlo Framework](./presentations/2021_QMCPy_MidwestNumericalAnalysis.pdf) @ [2021 Midwest Numerical Analysis Day](https://web.mst.edu/~hex/MWNAD/MWNAD2021.html)
 - [Building QMCPy's Quasi-Monte Carlo Framework.](./presentations/2021_QMCPy_MCM.pdf) @ [2021 International Conference on Monte Carlo Methods and Applications](https://www.uni-mannheim.de/mcm-2021/)
 - [QMCPy Quasi-Monte Carlo Software](./presentations/2021_QMCPy_SIAMGL.pdf) @ [2021 SIAM Great Lakes Section Meeting](https://sites.google.com/oakland.edu/glsiam2021/)
-- [(Quasi)-Monte Carlo Importance Sampling with QMCPy.](./presentations/2021_QMCPyIS_CompMathIIT.pdf) 2021 Computational Mathematics Seminar, Department of Applied Mathematics, Illinois Institute of Technology
+- [(Quasi)-Monte Carlo Importance Sampling with QMCPy.](./presentations/2021_QMCPyIS_CompMathIIT.pdf) 2021 Illinois Institute of Technology, Department of Applied Mathematics, Computational Mathematics Seminar
 - [QMCPy: A Quasi-Monte Carlo Software in Python 3](./presentations/2020_QMCPy_CASSC.pdf) @ [2020 Chicago Area SIAM Student Conference](https://siam-northwestern.github.io/cassc_2020.html)
 - [QMCPy: A Quasi-Monte Carlo Software in Python 3.](./presentations/2020_QMCPy_PyDataChicago.pdf) @ [2020 PyData Chicago](https://chicago.pydata.org/)
