@@ -6,6 +6,30 @@
 \usepackage[hyperref]{}
 \usepackage[scale=0.8, top=.7cm, bottom=.7cm, left=.8cm, right=.8cm]{geometry}
 
+% makes a https hyperlink
+% usage: \httpslink[optional text]{link}
+\newcommand*{\httpslink}[2][]{% <=======================================
+  \ifthenelse{\equal{#1}{}}%
+    {\href{https://#2}{#2}}%
+    {\href{https://#2}{#1}}}
+    
+\newcommand*{\googlescholarsocialsymbol}  {\includegraphics[width=0.25cm]{google-scholar}~} % <===================
+\newcommand*{\researchgatesocialsymbol}  {\includegraphics[width=0.5cm]{example-image-b}~} % <===================
+\newcommand*{\testsocialsymbol}  {\includegraphics[width=0.5cm]{example-image-c}~} % <===================
+
+\makeatletter
+\RenewDocumentCommand{\social}{O{}O{}m}{%
+  \ifthenelse{\equal{#2}{}}%
+    { 
+    \ifthenelse{\equal{#1}{linkedin}}{\collectionadd[linkedin]{socials}{\protect\httpslink[#3]{www.linkedin.com/in/#3}}}{}%
+    \ifthenelse{\equal{#1}{googlescholar}}{\collectionadd[googlescholar]{socials}{\protect\httpslink[#3]{scholar.google.com/citations?user=#3}}}{}% <================================================================
+    \ifthenelse{\equal{#1}{researchgate}}{\collectionadd[researchgate]{socials}{\protect\httpslink[#3]{www.researchgate.com/profile/#3}}}{}% <================================================================
+      \ifthenelse{\equal{#1}{twitter}} {\collectionadd[twitter]{socials} {\protect\httpslink[#3]{www.twitter.com/#3}}}    {}%
+      \ifthenelse{\equal{#1}{github}}  {\collectionadd[github]{socials}  {\protect\httpslink[#3]{www.github.com/#3}}}     {}%
+    }
+    {\collectionadd[#1]{socials}{\protect\httpslink[#3]{#2}}}}
+\makeatother
+
 \usepackage[
     backend=biber,
     %defernumbers=true,
@@ -37,9 +61,13 @@
 
 \firstname{Aleksei G.}
 \familyname{Sorokin}
+\address{3443 S Morgan St, Chicago IL, 60608, US}
+\phone[mobile]{+1~(630)~297~6261}  
+\homepage{alegresor.github.io}
 \email{asorokin@hawk.iit.edu}
-\homepage{alegresor.github.io/}{}
-%\social[linkedin][www.linkedin.com/in/aleksei-sorokin/]{linkedin.com/in/aleksei-sorokin}
+\social[linkedin]{aleksei-sorokin}
+\social[github]{alegresor}
+\social[googlescholar]{akk3XSEAAAAJ}
 
 \begin{document}
 \makecvtitle
@@ -53,7 +81,7 @@
 \section{Experiences}
 \cvitem{Summer 2023}{\textbf{Graduate Intern} at \textbf{Los Alamos National Laboratory.} I modeled the solution processes of PDEs with random coefficients using efficient and error aware Gaussian processes resulting in  \cite{sorokin.gp4darcy}.}
 \cvitem{Summer 2022}{\textbf{Givens Associate} at \textbf{Argonne National Laboratory}. I researched methods to efficiently estimate failure probability using Monte Carlo with non-parametric importance sampling resulting in \cite{sorokin.adaptive_prob_failure_GP}.}
-\cvitem{Summer 2021}{\textbf{Machine Learning Engineer} at \textbf{SigOpt, an Intel Company}. I developed novel meta-learning techniques for model-aware hyperparameter optimization resulting in \cite{sorokin.sigopt_mulch}.}
+\cvitem{Summer 2021}{\textbf{Machine Learning Intern} at \textbf{SigOpt, an Intel Company}. I developed novel meta-learning techniques for model-aware hyperparameter optimization resulting in \cite{sorokin.sigopt_mulch}.}
 \cvitem{2018 - Present}{\textbf{Lead Developer} of \textbf{QMCPy: A Quasi-Monte Carlo Python Library.} This package provides researchers and practitioners with high quality sequence generators, automatic variable transformations, adaptive stopping criteria algorithms, and diverse use cases. See \cite{sorokin.MC_vector_functions_integrals,choi.QMC_software,sorokin.QMC_IS_QMCPy} or visit \itlink{qmcpy.org}{https://qmcpy.org}.}
 \cvitem{Fall 2021 - Present}{\textbf{Teaching assistant} at \textbf{IIT}. Includes leading review sessions for Ph.D. qualifying exams.}
 \cvitem{Fall 2022}{\textbf{Participant} in an elective course on  \textbf{AI Driven Science on Supercomputers} through \textbf{Argonne National Laboratory}. Coursework at \itlink{github.com/alegresor/ai-science-training-series}{https://github.com/alegresor/ai-science-training-series}.}
@@ -61,6 +89,11 @@
 \cvitem{2018 - Present}{\textbf{Administrative Assistant} for \textbf{The Center for Interdisciplinary Scientific Computation at IIT}. I scheduled lecture series and maintained information on the CISC website at \itlink{cos.iit.edu/cisc/}{https://cos.iit.edu/cisc/}.}
 \cvitem{2018 - 2019}{\textbf{Instructor} for the \textbf{STARS Computing Corp's Computer Discover Program.} I developed a curriculum for middle school and high school girls to learn programmatic thinking with Python.}
 
+\section{Skills}
+\cvitem{\textbf{Math Interests}}{Probabilistic Numerics, Quasi-Monte Carlo, Gaussian Processes, Machine Learning}
+\cvitem{\textbf{Softwares}}{GitHub Actions, Docker, Amazon EC2, \LaTeX}
+\cvitem{\textbf{Languages}}{Python, Julia, C, MATLAB, R}
+\cvitem{\textbf{Python Libraries}}{numpy, scipy, matplotlib, pandas, pytorch, gpytorch}
 
 \nocite{
     sorokin.gp4darcy,
@@ -106,12 +139,12 @@
 \cvitem{2020}{\textbf{College of Science Summer Stipend}, IIT.}
 \cvitem{2020}{\textbf{Karl Menger Student Award for Exceptional Scholarship}, IIT.}
 
-\section{References}
-\cvitem{\href{mailto:hickernell@iit.edu}{hickernell@iit.edu}}{\textbf{Fred J. Hickernell, Ph.D.} Vice Provost for Research and Professor of Applied Mathematics, IIT.}
-\cvitem{\href{mailto:nickh@lanl.gov}{nickh@lanl.gov}}{\textbf{Nicolas W. Hengartner, Ph.D.} Senior Scientist, Los Alamos National Laboratory.}
-\cvitem{\href{mailto:mccourt@sigopt.com}{mccourt@sigopt.com}}{\textbf{Michael J. McCourt, Ph.D.} Research Engineer, SigOpt, an Intel Company.}
-\cvitem{\href{mailto:vhebbur@anl.gov}{vhebbur@anl.gov}}{\textbf{Vishwas Rao, Ph.D.} Assistant Computational Mathematician, Argonne National Laboratory.}
-\cvitem{\href{mailto:schoi32@iit.edu}{schoi32@iit.edu}}{\textbf{Sou-Cheng T. Choi, Ph.D.} Chief Data Scientist, Kamakura Corporation.}
+% \section{References}
+% \cvitem{\href{mailto:hickernell@iit.edu}{hickernell@iit.edu}}{\textbf{Fred J. Hickernell, Ph.D.} Vice Provost for Research and Professor of Applied Mathematics, IIT.}
+% \cvitem{\href{mailto:nickh@lanl.gov}{nickh@lanl.gov}}{\textbf{Nicolas W. Hengartner, Ph.D.} Senior Scientist, Los Alamos National Laboratory.}
+% \cvitem{\href{mailto:mikemccourt1234@gmail.com}{mikemccourt1234@gmail.com}}{\textbf{Michael J. McCourt, Ph.D.} Co-Founder and CTO at Distributional.}
+% \cvitem{\href{mailto:vhebbur@anl.gov}{vhebbur@anl.gov}}{\textbf{Vishwas Rao, Ph.D.} Assistant Computational Mathematician, Argonne National Laboratory.}
+% \cvitem{\href{mailto:schoi32@iit.edu}{schoi32@iit.edu}}{\textbf{Sou-Cheng T. Choi, Ph.D.} Chief Data Scientist, Kamakura Corporation.}
 
 %%%%% COVER LETTER
 %\clearpage
