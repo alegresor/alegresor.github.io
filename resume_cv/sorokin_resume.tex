@@ -22,7 +22,8 @@
   \ifthenelse{\equal{#2}{}}%
     { 
     \ifthenelse{\equal{#1}{linkedin}}{\collectionadd[linkedin]{socials}{\protect\httpslink[#3]{www.linkedin.com/in/#3}}}{}%
-    \ifthenelse{\equal{#1}{googlescholar}}{\collectionadd[googlescholar]{socials}{\protect\httpslink[#3]{scholar.google.com/citations?user=#3}}}{}% <================================================================
+    \ifthenelse{\equal{#1}{googlescholar}}{\collectionadd[googlescholar]{socials}{\protect\httpslink[#3]{scholar.google.com/citations?user=#3}}}{}% 
+    % <================================================================
     \ifthenelse{\equal{#1}{researchgate}}{\collectionadd[researchgate]{socials}{\protect\httpslink[#3]{www.researchgate.com/profile/#3}}}{}% <================================================================
       \ifthenelse{\equal{#1}{twitter}} {\collectionadd[twitter]{socials} {\protect\httpslink[#3]{www.twitter.com/#3}}}    {}%
       \ifthenelse{\equal{#1}{github}}  {\collectionadd[github]{socials}  {\protect\httpslink[#3]{www.github.com/#3}}}     {}%
@@ -77,11 +78,10 @@
 \makecvtitle
 \vspace{-1.3cm}
 
-\section{Skills}
-\cvitem{\textbf{Math Interests}}{Probabilistic Numerics, Quasi-Monte Carlo, Gaussian Processes, Machine Learning}
-\cvitem{\textbf{Softwares}}{GitHub Actions, Docker, Amazon EC2, \LaTeX}
-\cvitem{\textbf{Languages}}{Python, Julia, C, MATLAB, R}
-\cvitem{\textbf{Python Libraries}}{numpy, scipy, matplotlib, pandas, pytorch, gpytorch}
+\section{Background}
+\cvitem{\textbf{Research Interests}}{Probabilistic Numerics, Quasi-Monte Carlo, Gaussian Processes, Machine Learning}
+\cvitem{\textbf{Softwares}}{Docker, AWS, GitHub Actions, Travis CI, \LaTeX}
+\cvitem{\textbf{Frameworks}}{Python (pandas, PyTorch, GPyTorch), Julia, C, MATLAB, R, SQL} 
 
 \section{Education}
 \cvitem{2021 - 2025}{\textbf{Ph.D. in Applied Mathematics.} Illinois Institute of Technology (IIT).}
@@ -91,30 +91,48 @@
 \section{Experiences}
 \cvitem{Summer 2023}{\textbf{Graduate Intern} at \textbf{Los Alamos National Laboratory.} I modeled the solution processes of PDEs with random coefficients using efficient and error aware Gaussian processes. Resulted in publication of \citetitle{sorokin.gp4darcy}.}
 \cvitem{Summer 2022}{\textbf{Givens Associate} at \textbf{Argonne National Laboratory}. I researched methods to efficiently estimate failure probability using Monte Carlo with non-parametric importance sampling. Resulted in publication of \citetitle{sorokin.adaptive_prob_failure_GP}.}
-\cvitem{Summer 2021}{\textbf{Machine Learning Intern} at \textbf{SigOpt, an Intel Company}. I developed novel meta-learning techniques for model-aware hyperparameter optimization. Resulted in publication of \citetitle{sorokin.sigopt_mulch}.}
+\cvitem{Summer 2021}{\textbf{Machine Learning Intern} at \textbf{SigOpt, an Intel Company}. I developed novel meta-learning techniques for model-aware hyperparameter optimization. As part of a six person ML engineering team, I contributed production code and learned key elements of the AWS stack. Resulted in publication of \citetitle{sorokin.sigopt_mulch}.}
 \cvitem{Fall 2021 - Present}{\textbf{Teaching assistant} at \textbf{IIT}. Includes leading review sessions for Ph.D. qualifying exams.}
+% \cvitem{2018 - 2021}{\textbf{Lead Developer} of \textbf{DNNB: The Deep Neural Network Builder in Python.} This research package implements deep learning models from scratch in Python. See \itlink{github.com/alegresor/DNNB}{https://github.com/alegresor/DNNB}.}
+% \cvitem{2018 - Present}{\textbf{Administrative Assistant} for \textbf{The Center for Interdisciplinary Scientific Computation at IIT}. I scheduled lecture series and maintained information on the CISC website at \itlink{cos.iit.edu/cisc/}{https://cos.iit.edu/cisc/}.}
+% \cvitem{2018 - 2019}{\textbf{Instructor} for the \textbf{STARS Computing Corp's Computer Discover Program.} I developed a curriculum for middle school and high school girls to learn programmatic thinking with Python.}
 
 \section{Projects}
-\cvitem{\textbf{Fast Gaussian Processes with Derivatives}}{The cost of Gaussian process regression can be reduced from $\mathcal{O}(n^3)$ to $\mathcal{O}(n \log n)$ when one has control over the design of experiments. This is achieved by pairing quasi-random sampling sequences with matching kernels to induce structure in the kernel matrix. My Ph.D. research studies generalizations for quickly incorporating derivative information into the Gaussian process model and applications in building surrogates for PDEs solutions.}
-\cvitem{\textbf{QMCPy}}{I have led development of QMCPy, a Quasi-Monte Carlo Python Library, since 2018. This package provides researchers and practitioners with high quality sequence generators, automatic variable transformations, adaptive stopping criteria algorithms, and diverse use cases. Publications include \citetitle{choi.QMC_software}, \citetitle{sorokin.MC_vector_functions_integrals}, \citetitle{choi.challenges_great_qmc_software}. See \itlink{qmcpy.org}{https://qmcpy.org} for details.}
-\cvitem{\textbf{Argonne: AI on Supercomputers}}{I participated in an elective course on  \emph{AI Driven Science on Supercomputers} through \emph{Argonne National Laboratory}. Included instruction on handling large scale data pipelines and parallel training for neural networks. Coursework at \itlink{github.com/alegresor/ai-science-training-series}{https://github.com/alegresor/ai-science-training-series}.}
-
-% \nocite{
-%     sorokin.gp4darcy,
-%     sorokin.MC_vector_functions_integrals,
-%     choi.challenges_great_qmc_software,
-%     sorokin.adaptive_prob_failure_GP,
-%     sorokin.sigopt_mulch,
-%     choi.QMC_software,
-%     }
-% \printbibliography[title=Publications]
-    
-%\bibliography{../../ags/meta/ags}
+\cvitem{\textbf{Fast Gaussian Processes with Gradients}}{The cost of Gaussian process regression can be reduced from $\mathcal{O}(n^3)$ to $\mathcal{O}(n \log n)$ when one has control over the design of experiments. This is achieved by pairing quasi-random sampling sequences with matching kernels to induce structure in the kernel matrix. My Ph.D. research studies generalizations for quickly incorporating gradient information into the ML model and using these efficient strategies to solve PDEs.}
+\cvitem{\textbf{QMCPy}}{I lead development of the open source project QMCPy, a Quasi-Monte Carlo Python Library. This package provides high quality quasi-random sequence generators, automatic variable transformations, adaptive stopping criteria algorithms, and diverse use cases. Over the past five years, this project has grown to dozens of collaborators and resulted in numerous presentations at a variety of conferences. Publications include \citetitle{choi.QMC_software}, \citetitle{sorokin.MC_vector_functions_integrals}, \citetitle{choi.challenges_great_qmc_software}, and \citetitle{sorokin.QMC_IS_QMCPy}. See \itlink{qmcpy.org}{https://qmcpy.org} for more information.}
+\cvitem{\textbf{Argonne: AI on Supercomputers}}{I studied  \emph{AI Driven Science on Supercomputers} during my time at \emph{Argonne National Laboratory}. Key topics included handling large scale data pipelines and parallel training for neural networks. Coursework at \itlink{github.com/alegresor/ai-science-training-series}{https://github.com/alegresor/ai-science-training-series}.}
 
 \section{Awards}
 \cvitem{2023}{\textbf{Outstanding Mathematics Poster}, Los Alamos National Laboratory.}
 \cvitem{2021}{\textbf{Best Manuscript}, IIT Undergraduate Research Journal.}
 \cvitem{2020}{\textbf{Karl Menger Student Award for Exceptional Scholarship}, IIT.}
+\cvitem{2017 - Present}{\textbf{Deans List Member}, IIT.}
+
+% \section{Coursework}
+% \cvitem{Mathematics}{
+%     Applied Analysis I/II,
+%     Computational Mathematics,
+%     Probability, 
+%     Statistics, 
+%     Applied Statistics,
+%     Bayesian Computational Statistics, 
+%     Statistical Learning, 
+%     Monte Carlo Methods in Finance,
+%     Mathematical Methods for Algorithmic Trading,
+%     Numerical Methods for PDEs,
+%     Reliable Mathematical Software, 
+%     Linear Optimization, 
+%     Computational Algebraic Geometry} 
+% \cvitem{Computer Science}{
+%     Big Data Technologies,
+%     Data Preparation and Analysis,
+%     Database Organization,
+%     Big Data Visualization,
+%     Systems Programming, 
+%     Computer Organization and Assembly,
+%     Data Structures and Algorithms, 
+%     Object Oriented Programming I/II.}
+
 
 % \section{References}
 % \cvitem{\href{mailto:hickernell@iit.edu}{hickernell@iit.edu}}{\textbf{Fred J. Hickernell, Ph.D.} Vice Provost for Research and Professor of Applied Mathematics, IIT.}
