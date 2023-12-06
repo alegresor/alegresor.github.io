@@ -30,7 +30,7 @@ pip install qmcpy
 
 ## FastGaussianProcesses.jl
 
-[FastGaussianProcesses.jl](https://alegresor.github.io/FastGaussianProcesses.jl) is a Julia package for fast construction of Gaussian processes regression models when one controls the design of experiments. Gradient information may also be quickly incorporated into the GP. For a GP fit to $N$ sampling locations with $M$ derivative orders would typically cost $\mathcal{O}(M^3N^3)$. Our fast algorithms cost only $\mathcal{O}(M^2 N \log N + M^3 N)$. Typically $M=1$ when only the function $f:[0,1]^s \to \mathbb{R}$ is evaluated. When the gradient is also evaluated we have $M = 1+s$. Incorporating second derivatives and beyond is support but limited.  
+[FastGaussianProcesses.jl](https://alegresor.github.io/FastGaussianProcesses.jl) is a Julia package for fast construction of Gaussian processes regression models when one controls the design of experiments. Gradient information may also be quickly incorporated into the GP. A GP fit to $N$ sampling locations with $M$ derivative orders available would typically cost $\mathcal{O}(M^3N^3)$ to fit including kernel parameter optimization. Our fast algorithms cost only $\mathcal{O}(M^2 N \log N + M^3 N)$. Typically $M=1$ when only the function $f:[0,1]^s \to \mathbb{R}$ is evaluated. When the gradient is also evaluated we have $M = 1+s$. Incorporating second derivatives and beyond is support but limited.  
 
 ```
 ] add FastGaussianProcesses
