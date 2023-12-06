@@ -28,15 +28,15 @@ pip install qmcpy
 
 ![image](./assets/qmcgenerators_logo.svg)
 
-## QuasiGaussianProcesses.jl
+## FastGaussianProcesses.jl
 
-[QuasiGaussianProcesses.jl](https://alegresor.github.io/QuasiGaussianProcesses.jl/stable) is a Julia package for fast construction and evaluation of Gaussian processes regression models when one controls the design of experiments. By choosing a design of $n$ quasi-random (low discrepancy) points and matching the GP covariance kernel, the cost is reduced from $\mathcal{O}(n^3)$ to $\mathcal{O}(n \log n)$. 
+[FastGaussianProcesses.jl](https://alegresor.github.io/FastGaussianProcesses.jl) is a Julia package for fast construction of Gaussian processes regression models when one controls the design of experiments. Gradient information may also be quickly incorporated into the GP. For a GP fit to $N$ sampling locations with $M$ derivative orders would typically cost $\mathcal{O}(M^3N^3)$. Our fast algorithms cost only $\mathcal{O}(M^2 N \log N + M^3 N)$. Typically $M=1$ when only the function $f:[0,1]^s \to \mathbb{R}$ is evaluated. When the gradient is also evaluated we have $M = 1+s$. Incorporating second derivatives and beyond is support but limited.  
 
 ```
-] add QuasiGaussianProcesses
+] add FastGaussianProcesses
 ```
 
-![image](./assets/noisy_lattice_qgp.png)
+![image](./assets/fastgaussianprocesses_logo.svg)
 
 
 # Posters
