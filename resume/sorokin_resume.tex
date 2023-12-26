@@ -35,7 +35,9 @@
 \usepackage[
     backend=biber,
     %defernumbers=true,
-    sorting=ydnt]{biblatex}
+    sorting=ydnt,
+    maxbibnames=99
+  ]{biblatex}
 \addbibresource{../../ags/meta/ags.bib}
 
 \defbibenvironment{bibliography} 
@@ -149,6 +151,6 @@
 %\lipsum[1-3] % Dummy text
 %\makeletterclosing % Print letter signature
 
-%\printbibliography[title={Publications}]
+\printbibliography[title={Publications}]
 
 \end{document}
