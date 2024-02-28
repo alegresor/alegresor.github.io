@@ -76,9 +76,9 @@ pip install qmcpy
 
 ## Fast Gaussian Process Regression with Derivative Information
 
-2023 Illinois Institute of Technology, Department of Applied Mathematics, Computational Mathematics Seminar 
+[2024 SIAM Conference on Uncertainty Quantification](https://www.siam.org/conferences/cm/conference/uq24)
 
-<embed src="./presentations/2023_FastGPRDerivatives_CompMathIIT.pdf" type="application/pdf" width="1000" height="600"/>
+<embed src="./presentations/2024_FastGPDerivs_SIAMUQ.pdf" type="application/pdf" width="1000" height="600"/>
 
 ## Probabilistic Models for PDEs with Random Coefficients
 
