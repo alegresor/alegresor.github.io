@@ -41,29 +41,37 @@ pip install qmcpy
 
 # Posters
 
+## Fast Gaussian Process Regression for Smooth Functions
+
+2024 Illinois Institute of Technology Menger Day 
+
+
+<embed src="./posters/2024_FastGP_MengerIIT.pdf" type="application/pdf" width="1000" height="750"/>
+
+
 ## Probabilistic Models for PDEs with Random Coefficients
 
 2023 Los Alamos National Laboratory Student Symposium
 
-<embed src="./posters/2023_GP4DarcyPDE_LANL.pdf" type="application/pdf" width="1000" height="810"/>
+<embed src="./posters/2023_GP4DarcyPDE_LANL.pdf" type="application/pdf" width="1000" height="750"/>
 
 ## Credible Intervals for Probability of Failure with Gaussian Processes
 
 2022 Illinois Institute of Technology Welcome Week Student Research Poster Day
 
-<embed src="./posters/2023_PFGPCredibleIntervals_Own.pdf" type="application/pdf" width="1000" height="810"/>
+<embed src="./posters/2023_PFGPCredibleIntervals_Own.pdf" type="application/pdf" width="1000" height="750"/>
 
 ## Robust Approximation of Sensitivity Indices in QMCPy
 
 [2022 Conference on Sensitivity Analysis of Model Output (SAMO)](https://samo2022.math.fsu.edu/)
 
-<embed src="./posters/2022_SensitivityIndicesQMCPy_SAMO.pdf" type="application/pdf" width="1000" height="810"/>
+<embed src="./posters/2022_SensitivityIndicesQMCPy_SAMO.pdf" type="application/pdf" width="1000" height="750"/>
 
 ## QMCPy: Quasi-Monte Carlo Software in Python
 
 2021 Chicago Area Undergraduate Research Symposium
 
-<embed src="./posters/2021_QMCPy_CAURS.pdf" type="application/pdf" width="1000" height="810"/>
+<embed src="./posters/2021_QMCPy_CAURS.pdf" type="application/pdf" width="1000" height="750"/>
 
 
 ## Other Posters
@@ -74,11 +82,17 @@ pip install qmcpy
 
 # Presentations
 
-## Fast Gaussian Process Regression with Derivative Information
+## Walsh Functions and Spaces 
 
-[2024 SIAM Conference on Uncertainty Quantification](https://www.siam.org/conferences/cm/conference/uq24)
+2024 Illinois Institute of Technology, Computational Math and Stats Seminar and Multiscale Seminar
 
-<embed src="./presentations/2024_FastGPDerivs_SIAMUQ.pdf" type="application/pdf" width="1000" height="600"/>
+<embed src="./presentations/2024_WalshFunctions_IIT.pdf" type="application/pdf" width="1000" height="600"/>
+
+## Fast Gaussian Process Regression with Derivative Information using Lattice and Digital Sequences 
+
+2024 Illinois Institute of Technology PhD Comprehensive Exam 
+
+<embed src="./presentations/2024_PhDComp_IIT.pdf" type="application/pdf" width="1000" height="600"/>
 
 ## Probabilistic Models for PDEs with Random Coefficients
 
@@ -106,6 +120,7 @@ pip install qmcpy
 
 ## Other Presentations
 
+- [Fast Gaussian Process Regression with Derivative Information](./presentations/2024_FastGPDerivs_SIAMUQ_MNADay.pdf) @ [2024 SIAM Conference on Uncertainty Quantification](https://www.siam.org/conferences/cm/conference/uq24) and [2024 Midwest Numerical Analysis Day](https://homepage.divms.uiowa.edu/~whan/mwnaday2024.html)
 - [QMCPy Client for UM-Bridge](./presentations/2022_QMCPyUMBrige_UMBrigeWorkshop.pdf) @ [2022 UM-Bridge Workshop](https://um-bridge.github.io/workshop/)
 - [Quasi-Monte Carlo for Functions of Multi-Dimensional Integrals](./presentations/2022_QMCPyVectorization_MCQMC.pdf) @ [2022 Monte Carlo and Quasi-Monte Carlo Methods in Scientific Computing Conferene](https://www.ricam.oeaw.ac.at/events/conferences/mcqmc2022/)
 - [QMCPy, A Quasi-Monte Carlo Framework](./presentations/2021_QMCPy_MidwestNumericalAnalysis.pdf) @ [2021 Midwest Numerical Analysis Day](https://web.mst.edu/~hex/MWNAD/MWNAD2021.html)
