@@ -64,9 +64,9 @@
 \newcommand{\bfitlink}[2]{\textcolor{linkColor}{\textbf{\textit{\link[#1]{#2}}}}}
 \newcommand{\hpref}[2]{\hyperref[#1]{\textcolor{linkColor}{\textit{#2}}}}
 
-\firstname{Aleksei G.}
+\firstname{Aleksei G}
 \familyname{Sorokin}
-\address{3443 S Morgan St, Chicago IL, 60608, US}
+%\address{Chicago IL}
 \phone[mobile]{+1~(630)~297~6261}  
 \homepage{alegresor.github.io}
 \email{asorokin@hawk.iit.edu}
@@ -79,35 +79,37 @@
 \vspace{-1.3cm}
 
 \section{Background}
-\cvitem{\textbf{Research Interests}}{Probabilistic Numerics, Quasi-Monte Carlo, Gaussian Processes, Machine Learning}
-\cvitem{\textbf{Softwares}}{Docker, AWS, GitHub Actions, Travis CI, \LaTeX}
-\cvitem{\textbf{Frameworks}}{Python (pandas, PyTorch, GPyTorch), Julia, C, MATLAB, R, SQL, Wolfram} 
+\cvitem{\textbf{Research Interests}}{Scientific Machine Learning, Gaussian Processes, Quasi-Monte Carlo, Probabilistic Numerics}
+\cvitem{\textbf{Programming}}{Python (PyTorch, GPyTorch, pandas, Matplotlib), Julia, C, MATLAB, R, SQL, Wolfram} 
+\cvitem{\textbf{Tools}}{AWS (SageMaker, EC2), GitHub (general, actions, pages), \LaTeX, Docker}
 
 \section{Education}
-\cvitem{2021 - 2025}{\textbf{PhD in Applied Math.} Illinois Institute of Technology (IIT). GPA $3.89 / 4$.}
+\cvitem{2021 - 2026}{\textbf{PhD in Applied Math.} Illinois Institute of Technology (IIT). GPA $3.89 / 4$.}
 \cvitem{2017 - 2021}{\textbf{Master of Data Science.} IIT. Summa cum laude. GPA $3.94 / 4$.}
 \cvitem{2017 - 2021}{\textbf{B.S. in Applied Math, Minor in Computer Science.} IIT. Summa cum laude. GPA $3.94 / 4$.}
 
 \section{Experiences}
+\cvitem{Summer 2024}{\textbf{Scientific Machine Learning Researcher} at \textbf{FM (Factory Mutual Insurance Company).} I built SciML models including Physics Informed Neural Networks (PINNs) and Deep Operator Networks (DeepONets) for solving Radiative Transport Equations (RTEs). These deep learning models were trained on large scale GPUs and used to speed up CFD fire dynamics simulations.}
 \cvitem{Summer 2023}{\textbf{Graduate Intern} at \textbf{Los Alamos National Laboratory.} I modeled the solution processes of PDEs with random coefficients using efficient and error aware Gaussian processes. Resulted in publication of \citetitle{sorokin.gp4darcy}.}
 \cvitem{Summer 2022}{\textbf{Givens Associate Intern} at \textbf{Argonne National Laboratory}. I researched methods to efficiently estimate failure probability using Monte Carlo with non-parametric importance sampling. Resulted in publication of \citetitle{sorokin.adaptive_prob_failure_GP}.}
 \cvitem{Summer 2021}{\textbf{ML Engineer Intern} at \textbf{SigOpt, an Intel Company}. I developed novel meta-learning techniques for model-aware hyperparameter tuning via Bayesian optimization. In a six person ML engineering team, I contributed production code and learned key elements of the AWS stack. Resulted in publication of \citetitle{sorokin.sigopt_mulch}.}
-\cvitem{Fall 2021 - Present}{\textbf{Teaching Assistant} at \textbf{IIT}. I lead review sessions for PhD qualifying exams in applied math.}
+\cvitem{2021 - 2024}{\textbf{Teaching Assistant} at \textbf{IIT}. I lead review sessions for PhD qualifying exams in applied math.}
 % \cvitem{2018 - 2021}{\textbf{Lead Developer} of \textbf{DNNB: The Deep Neural Network Builder in Python.} This research package implements deep learning models from scratch in Python. See \itlink{github.com/alegresor/DNNB}{https://github.com/alegresor/DNNB}.}
 % \cvitem{2018 - Present}{\textbf{Administrative Assistant} for \textbf{The Center for Interdisciplinary Scientific Computation at IIT}. I scheduled lecture series and maintained information on the CISC website at \itlink{cos.iit.edu/cisc/}{https://cos.iit.edu/cisc/}.}
 % \cvitem{2018 - 2019}{\textbf{Instructor} for the \textbf{STARS Computing Corp's Computer Discover Program.} I developed a curriculum for middle school and high school girls to learn programmatic thinking with Python.}
 
 \section{Projects}
-\cvitem{\textbf{Fast Gaussian Processes with Gradients}}{The cost of Gaussian process regression can be reduced from $\mathcal{O}(n^3)$ to $\mathcal{O}(n \log n)$ when one has control over the design of experiments. This is achieved by pairing quasi-random sampling with matching kernels to induce structure in the kernel matrix. My PhD research studies generalizations for quickly incorporating gradient information into the ML model and using these efficient strategies to solve PDEs.}
-\cvitem{\textbf{QMCPy}}{I lead development of the open source project QMCPy, a Quasi-Monte Carlo Python Library. This package provides high quality quasi-random sequence generators, automatic variable transformations, adaptive stopping criteria algorithms, and diverse use cases. Over the past five years, this project has grown to dozens of collaborators and resulted in numerous presentations at a variety of conferences. Publications include \citetitle{choi.QMC_software}, \citetitle{sorokin.MC_vector_functions_integrals}, \citetitle{choi.challenges_great_qmc_software}, and \citetitle{sorokin.QMC_IS_QMCPy}. See \itlink{qmcpy.org}{https://qmcpy.org} for more information.}
-\cvitem{\textbf{Argonne: AI on Supercomputers}}{I studied  \emph{AI Driven Science on Supercomputers} during my time at \emph{Argonne National Laboratory}. Key topics included handling large scale data pipelines and parallel training for neural networks. Coursework at \itlink{github.com/alegresor/ai-science-training-series}{https://github.com/alegresor/ai-science-training-series}.}
+\cvitem{\textbf{Fast Gaussian Processes with Derivatives for Solving PDEs}}{The cost of Gaussian process regression can be reduced from $\mathcal{O}(n^3)$ to $\mathcal{O}(n \log n)$ when one has control over the design of experiments. This is achieved by pairing quasi-random sampling with matching kernels to induce structure in the kernel matrix. My PhD research studies generalizations for quickly incorporating gradient information into the ML model and using these efficient strategies to solve PDEs with either random or deterministic coefficients.}
+\cvitem{\textbf{QMCPy Software}}{I lead development of the open source project QMCPy, a Quasi-Monte Carlo Python Library. This package provides high quality quasi-random sequence generators, automatic variable transformations, adaptive stopping criteria algorithms, and diverse use cases. Over the past five years, this project has grown to dozens of collaborators and resulted in numerous conference presentations and publications \cite{choi.QMC_software, sorokin.MC_vector_functions_integrals,choi.challenges_great_qmc_software,sorokin.QMC_IS_QMCPy}. See \itlink{qmcpy.org}{https://qmcpy.org} for more information.}
+\cvitem{\textbf{Argonne: AI on Supercomputers}}{I studied  \emph{AI Driven Science on Supercomputers} during my time at \emph{Argonne National Laboratory}. Key topics included handling large scale data pipelines and parallel training for neural networks. %Coursework at \itlink{github.com/alegresor/ai-science-training-series}{https://github.com/alegresor/ai-science-training-series}.
+}
 
 \section{Awards}
 \cvitem{2024}{\textbf{Teaching Assistant Award}, IIT.}
 \cvitem{2023}{\textbf{Outstanding Math Poster}, Los Alamos National Laboratory.}
-\cvitem{2021}{\textbf{Best Manuscript}, IIT Undergraduate Research Journal.}
+%\cvitem{2021}{\textbf{Best Manuscript}, IIT Undergraduate Research Journal.}
 \cvitem{2020}{\textbf{Karl Menger Student Award for Exceptional Scholarship}, IIT.}
-%\cvitem{2017 - Present}{\textbf{Deans List Member}, IIT.}
+\cvitem{2017 - Present}{\textbf{Deans List Member}, IIT.}
 
 % \section{Coursework}
 % \cvitem{Math}{
