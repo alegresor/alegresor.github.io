@@ -41,7 +41,7 @@ pip install qmcpy
 
 # Posters
 
-## Fast Gaussian Process Regression for Smooth Functions
+## A Neural Surrogate Solver for Radiation Transfer
 
 [2024 NeurIPS Workshop on Data-driven and Differentiable Simulations, Surrogates, and Solvers](https://neurips.cc/virtual/2024/workshop/84720)
 
