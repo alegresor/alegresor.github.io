@@ -43,11 +43,15 @@ pip install qmcpy
 
 ## Fast Gaussian Process Regression for Smooth Functions
 
+[2024 NeurIPS Workshop on Data-driven and Differentiable Simulations, Surrogates, and Solvers](https://neurips.cc/virtual/2024/workshop/84720)
+
+<embed src="./posters/2024_RTEDeepONet_NeurIPSD3S3.pdf" type="application/pdf" width="1000" height="1500"/>
+
+## Fast Gaussian Process Regression for Smooth Functions
+
 2024 Illinois Institute of Technology Menger Day 
 
-
 <embed src="./posters/2024_FastGP_MengerIIT.pdf" type="application/pdf" width="1000" height="750"/>
-
 
 ## Probabilistic Models for PDEs with Random Coefficients
 
