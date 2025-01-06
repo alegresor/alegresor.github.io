@@ -86,6 +86,12 @@ pip install qmcpy
 
 # Presentations
 
+## Scientific Machine Learning of Radiative Transfer Equations
+
+2024 Illinois Institute of Technology, Department of Applied Mathematics, Computational Mathematics Seminar
+
+<embed src="./presentations/2024_RTEDeepONet_NeurIPSD3S3.pdf" type="application/pdf" width="1000" height="600"/>
+
 ## Fast Gaussian Process Regression for Smooth Functions using Lattice and Digital Sequences with Matching Kernels 
 
 [2024 Monte Carlo and Quasi-Monte Carlo Methods in Scientific Computing Conference](https://uwaterloo.ca/monte-carlo-methods-scientific-computing-conference/)
