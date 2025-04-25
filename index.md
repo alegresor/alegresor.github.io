@@ -17,9 +17,9 @@ pip install qmcpy
 
 ![image](./assets/ishigami.png)
 
-## FastGaussianProcesses
+## FastGPs
 
-[FastGaussianProcesses](https://alegresor.github.io/FastGaussianProcesses) is a Python package for fast, exact Gaussian process regression at only $\mathcal{O}(n \log n)$ cost. Support for fast variants of multi-task GPs, GPs with gradient information, and GPs with vector (batch) outputs are also supported. The package builds on the PyTorch stack to enable GPU support and efficient hyperparameter optimization.
+[FastGPs](https://alegresor.github.io/fastgps) is a Python package for fast, exact Gaussian process regression at only $\mathcal{O}(n \log n)$ cost. Support for fast variants of multi-task GPs, GPs with gradient information, and GPs with vector (batch) outputs are also supported. The package builds on the PyTorch stack to enable GPU support and efficient hyperparameter optimization.
 
 ![image](./assets/fastgaussianprocesses_logo.svg)
 
@@ -33,7 +33,6 @@ pip install qmcpy
 
 ![image](./assets/qmcgenerators_logo.svg)
 
-
 # Posters
 
 ## A Neural Surrogate Solver for Radiation Transfer
@@ -44,7 +43,7 @@ pip install qmcpy
 
 ## Fast Gaussian Process Regression for Smooth Functions
 
-2024 Illinois Institute of Technology Menger Day 
+2024 Illinois Institute of Technology Menger Day
 
 <embed src="./posters/2024_FastGP_MengerIIT.pdf" type="application/pdf" width="1000" height="750"/>
 
