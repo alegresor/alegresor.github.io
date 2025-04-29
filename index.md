@@ -9,7 +9,7 @@ layout: default
 
 ## QMCPy
 
-[QMCPy](https://qmcpy.readthedocs.io/en/latest/md_rst/QMCSoftware.html) is a Python package for Quasi-Monte Carlo which includes quasi-random (low discrepancy) sequence generators, automatic variable transforms, adaptive stopping criteria, and a suite of diverse use cases. 
+[QMCPy](https://qmcpy.readthedocs.io/en/latest/md_rst/QMCSoftware.html) is a Python package for Quasi-Monte Carlo which includes quasi-random (low discrepancy) sequence generators, automatic variable transforms, adaptive stopping criteria, and a suite of diverse use cases.
 
 ```
 pip install qmcpy 
@@ -17,27 +17,21 @@ pip install qmcpy
 
 ![image](./assets/ishigami.png)
 
+## FastGPs
+
+[FastGPs](https://alegresor.github.io/fastgps) is a Python package for fast, exact Gaussian process regression at only $\mathcal{O}(n \log n)$ cost. Support for fast variants of multi-task GPs, GPs with gradient information, and GPs with vector (batch) outputs are also supported. The package builds on the PyTorch stack to enable GPU support and efficient hyperparameter optimization.
+
+![image](./assets/fastgaussianprocesses_logo.svg)
 
 ## QMCGenerators.jl
 
-[QMCGenerators.jl](https://alegresor.github.io/QMCGenerators.jl/stable/) is a Julia package for quasi-random (low discrepancy) sequence generators. Lattice and digital sequences, including higher order versions, are supported along with a variety of randomization routines. This is a translation and enhancement of Dirk Nuyens' [Magic Point Shop](https://people.cs.kuleuven.be/~dirk.nuyens/qmc-generators/). 
+[QMCGenerators.jl](https://alegresor.github.io/QMCGenerators.jl/stable/) is a Julia package for quasi-random (low discrepancy) sequence generators. Lattice and digital sequences, including higher order versions, are supported along with a variety of randomization routines. This is a translation and enhancement of Dirk Nuyens' [Magic Point Shop](https://people.cs.kuleuven.be/~dirk.nuyens/qmc-generators/).
 
 ```
 ] add QMCGenerators
 ```
 
 ![image](./assets/qmcgenerators_logo.svg)
-
-## FastGaussianProcesses.jl
-
-[FastGaussianProcesses.jl](https://alegresor.github.io/FastGaussianProcesses.jl) is a Julia package for fast construction of Gaussian processes regression models when one controls the design of experiments. Gradient information may also be quickly incorporated into the GP. A GP fit to $N$ sampling locations with $M$ derivative orders available would typically cost $\mathcal{O}(M^3N^3)$ to fit including kernel parameter optimization. Our fast algorithms cost only $\mathcal{O}(M^2 N \log N + M^3 N)$. Typically $M=1$ when only the function $f:[0,1]^s \to \mathbb{R}$ is evaluated. When the gradient is also evaluated we have $M = 1+s$. Incorporating second derivatives and beyond is support but limited.  
-
-```
-] add FastGaussianProcesses
-```
-
-![image](./assets/fastgaussianprocesses_logo.svg)
-
 
 # Posters
 
@@ -49,7 +43,7 @@ pip install qmcpy
 
 ## Fast Gaussian Process Regression for Smooth Functions
 
-2024 Illinois Institute of Technology Menger Day 
+2024 Illinois Institute of Technology Menger Day
 
 <embed src="./posters/2024_FastGP_MengerIIT.pdf" type="application/pdf" width="1000" height="750"/>
 
@@ -86,21 +80,21 @@ pip install qmcpy
 
 # Presentations
 
+## Quasi-Monte Carlo and Fast Multi-Task Gaussian Process Regression
+
+2025 Caltech Lunch Group Seminar
+
+<embed src="./presentations/2025_QMCFastMTGPs_Caltech.pdf" type="application/pdf" width="1000" height="600"/>
+
 ## Scientific Machine Learning of Radiative Transfer Equations
 
 2024 Illinois Institute of Technology, Department of Applied Mathematics, Computational Mathematics Seminar
 
 <embed src="./presentations/2024_RTEDeepONet_NeurIPSD3S3.pdf" type="application/pdf" width="1000" height="600"/>
 
-## Fast Gaussian Process Regression for Smooth Functions using Lattice and Digital Sequences with Matching Kernels 
+## Fast Gaussian Process Regression with Derivative Information using Lattice and Digital Sequences
 
-[2024 Monte Carlo and Quasi-Monte Carlo Methods in Scientific Computing Conference](https://uwaterloo.ca/monte-carlo-methods-scientific-computing-conference/)
-
-<embed src="./presentations/2024_HODNKernels_MCQMC.pdf" type="application/pdf" width="1000" height="600"/>
-
-## Fast Gaussian Process Regression with Derivative Information using Lattice and Digital Sequences 
-
-2024 Illinois Institute of Technology PhD Comprehensive Exam 
+2024 Illinois Institute of Technology PhD Comprehensive Exam
 
 <embed src="./presentations/2024_PhDComp_IIT.pdf" type="application/pdf" width="1000" height="600"/>
 
@@ -130,6 +124,7 @@ pip install qmcpy
 
 ## Other Presentations
 
+- [Fast Gaussian Process Regression for Smooth Functions using Lattice and Digital Sequences with Matching Kernels](./presentations/2024_HODNKernels_MCQMC.pdf) @ [2024 Monte Carlo and Quasi-Monte Carlo Methods in Scientific Computing Conference](https://uwaterloo.ca/monte-carlo-methods-scientific-computing-conference/)
 - [Walsh Functions and Spaces](./presentations/2024_WalshFunctions_IIT.pdf) @ 2024 Illinois Institute of Technology, Department of Applied Mathematics, Computational Mathematics and Multiscale Seminar
 - [Fast Physics Informed Kernel Methods for Nonlinear PDEs with Unknown Coefficients](./presentations/2024_kernel_PDE_opterator_learning_SampSci.pdf) @ [2024 SampSci Conference](https://sites.google.com/view/sampsci-2024/home?authuser=0)
 - [Fast Gaussian Process Regression with Derivative Information](./presentations/2024_FastGPDerivs_SIAMUQ_MNADay.pdf) @ [2024 SIAM Conference on Uncertainty Quantification](https://www.siam.org/conferences/cm/conference/uq24) and [2024 Midwest Numerical Analysis Day](https://homepage.divms.uiowa.edu/~whan/mwnaday2024.html)
