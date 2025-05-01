@@ -7,29 +7,62 @@ layout: default
 
 # Softwares
 
-## QMCPy
+![image](./assets/points.svg)
 
-[QMCPy](https://qmcpy.readthedocs.io/en/latest/md_rst/QMCSoftware.html) is a Python package for Quasi-Monte Carlo which includes quasi-random (low discrepancy) sequence generators, automatic variable transforms, adaptive stopping criteria, and a suite of diverse use cases.
+
+## QMCPy
 
 ```
 pip install qmcpy 
 ```
 
-![image](./assets/ishigami.png)
+[QMCPy](https://qmcsoftware.github.io/QMCSoftware/) is a Python package for Quasi-Monte Carlo (QMC) which contains
+- quasi-random (low discrepancy) sequence generators and randomization routines, including 
+    - **lattices** with
+        - extensible constructions
+        - random shifts
+    - **digital nets** (e.g. Sobol' points) with
+        - extensible constructions
+        - random digital shifts,
+        - linear matrix scrambling,
+        - nested uniform scrambling, and
+        - higher order construction through digital interlacing.
+- adaptive error estimation and stopping criteria including
+    - IID Monte Carlo algorithms
+    - QMC which tracks the decay of Fourier/Walsh coefficients
+    - QMC via Bayesian Cubature
+    - QMC via multiple randomizations (replications)
+    - growing support for multilevel Monte Carlo and Quasi-Monte Carlo
+- a suite of diverse use cases, and
+- automatic variable transforms.
+
+
+
+![image](./assets/mc_vs_qmc.svg)
 
 ## FastGPs
 
-[FastGPs](https://alegresor.github.io/fastgps) is a Python package for fast, exact Gaussian process regression at only $\mathcal{O}(n \log n)$ cost. Support for fast variants of multi-task GPs, GPs with gradient information, and GPs with vector (batch) outputs are also supported. The package builds on the PyTorch stack to enable GPU support and efficient hyperparameter optimization.
+```
+pip install fastgps 
+```
 
-![image](./assets/fastgaussianprocesses_logo.svg)
+Gaussian process regression (GPR) models typically require $\mathcal{O}(n^2)$ storage and $\mathcal{O}(n^3)$ computations. [FastGPs](https://alegresor.github.io/fastgps)  implements GPR which requires only $\mathcal{O}(n)$ storage and $\mathcal{O}(n \log n)$ computations by pairing certain quasi-random sampling locations with matching kernels to yield structured Gram matrices. We support
+- GPU scaling,
+- batched inference,
+- robust hyperparameter optimization, and
+- multi-task GPR.
+
+![image](./assets/2d_gp.svg)
 
 ## QMCGenerators.jl
-
-[QMCGenerators.jl](https://alegresor.github.io/QMCGenerators.jl/stable/) is a Julia package for quasi-random (low discrepancy) sequence generators. Lattice and digital sequences, including higher order versions, are supported along with a variety of randomization routines. This is a translation and enhancement of Dirk Nuyens' [Magic Point Shop](https://people.cs.kuleuven.be/~dirk.nuyens/qmc-generators/).
 
 ```
 ] add QMCGenerators
 ```
+
+[QMCGenerators.jl](https://alegresor.github.io/QMCGenerators.jl/) is a Julia package includes routines to generate and randomize quasi-random sequences used in Quasi-Monte Carlo. Supports the suite of low discrepancy sequence generators and randomization routines available in [QMCPy](https://qmcsoftware.github.io/QMCSoftware/). This package is a translation and enhancement of Dirk Nuyens' [Magic Point Shop](https://people.cs.kuleuven.be/~dirk.nuyens/qmc-generators/).
+
+
 
 ![image](./assets/qmcgenerators_logo.svg)
 
