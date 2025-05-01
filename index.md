@@ -7,38 +7,6 @@ layout: default
 
 # Softwares
 
-![image](./assets/points.svg)
-
-
-## QMCPy
-
-```
-pip install qmcpy 
-```
-
-[QMCPy](https://qmcsoftware.github.io/QMCSoftware/) is a Python package for Quasi-Monte Carlo (QMC) which contains
-- quasi-random (low discrepancy) sequence generators and randomization routines, including 
-    - **lattices** with
-        - extensible constructions
-        - random shifts
-    - **digital nets** (e.g. Sobol' points) with
-        - extensible constructions
-        - random digital shifts,
-        - linear matrix scrambling,
-        - nested uniform scrambling, and
-        - higher order construction through digital interlacing.
-- adaptive error estimation and stopping criteria including
-    - IID Monte Carlo algorithms
-    - QMC which tracks the decay of Fourier/Walsh coefficients
-    - QMC via Bayesian Cubature
-    - QMC via multiple randomizations (replications)
-    - growing support for multilevel Monte Carlo and Quasi-Monte Carlo
-- a suite of diverse use cases, and
-- automatic variable transforms.
-
-
-
-![image](./assets/mc_vs_qmc.svg)
 
 ## FastGPs
 
@@ -54,13 +22,43 @@ Gaussian process regression (GPR) models typically require $\mathcal{O}(n^2)$ st
 
 ![image](./assets/2d_gp.svg)
 
+## QMCPy
+
+```
+pip install qmcpy 
+```
+
+[QMCPy](https://qmcsoftware.github.io/QMCSoftware/) is a Python package for Quasi-Monte Carlo (QMC) which contains
+- quasi-random (low discrepancy) sequence generators and randomization routines, including 
+    - *lattices* with
+        - extensible constructions
+        - random shifts
+    - *digital nets* (e.g. Sobol' points) with
+        - extensible constructions
+        - random digital shifts,
+        - linear matrix scrambling,
+        - nested uniform scrambling, and
+        - higher order construction through digital interlacing.
+- adaptive error estimation and stopping criteria including
+    - IID Monte Carlo algorithms
+    - QMC which tracks the decay of Fourier/Walsh coefficients
+    - QMC via Bayesian Cubature
+    - QMC via multiple randomizations (replications)
+    - growing support for multilevel Monte Carlo and Quasi-Monte Carlo
+- a suite of diverse use cases, and
+- automatic variable transforms.
+
+![image](./assets/points.svg)
+
+![image](./assets/mc_vs_qmc.svg)
+
 ## QMCGenerators.jl
 
 ```
 ] add QMCGenerators
 ```
 
-[QMCGenerators.jl](https://alegresor.github.io/QMCGenerators.jl/) is a Julia package includes routines to generate and randomize quasi-random sequences used in Quasi-Monte Carlo. Supports the suite of low discrepancy sequence generators and randomization routines available in [QMCPy](https://qmcsoftware.github.io/QMCSoftware/). This package is a translation and enhancement of Dirk Nuyens' [Magic Point Shop](https://people.cs.kuleuven.be/~dirk.nuyens/qmc-generators/).
+[QMCGenerators.jl](https://alegresor.github.io/QMCGenerators.jl/) is a Julia package which includes routines to generate and randomize quasi-random sequences used in Quasi-Monte Carlo. This supports the suite of low discrepancy sequence generators and randomization routines available in [QMCPy](https://qmcsoftware.github.io/QMCSoftware/), see the description above. This package is a translation and enhancement of Dirk Nuyens' [Magic Point Shop](https://people.cs.kuleuven.be/~dirk.nuyens/qmc-generators/).
 
 
 
