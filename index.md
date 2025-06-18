@@ -168,6 +168,6 @@ pip install qmcpy
 - [QMCPy: A Quasi-Monte Carlo Software in Python 3](./presentations/2020_QMCPy_CASSC.pdf) @ [2020 Chicago Area SIAM Student Conference](https://siam-northwestern.github.io/cassc_2020.html)
 - [QMCPy: A Quasi-Monte Carlo Software in Python 3.](./presentations/2020_QMCPy_PyDataChicago.pdf) @ [2020 PyData Chicago](https://chicago.pydata.org/)
 
-## Photo Gallery 
+# Photo Gallery 
 
-<img src="assets/photos/IMG_4241.jpeg.jpg"/>
+<img src="assets/photos/IMG_4241.jpeg"/>
