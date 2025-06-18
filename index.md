@@ -170,4 +170,4 @@ pip install qmcpy
 
 ## Photo Gallery 
 
-<img src="assets/photos/example.jpg"/>
+<img src="assets/photos/IMG_4241.jpeg.jpg"/>
