@@ -167,3 +167,7 @@ pip install qmcpy
 - [(Quasi)-Monte Carlo Importance Sampling with QMCPy.](./presentations/2021_QMCPyIS_CompMathIIT.pdf) @ 2021 Illinois Institute of Technology, Department of Applied Mathematics, Computational Mathematics Seminar
 - [QMCPy: A Quasi-Monte Carlo Software in Python 3](./presentations/2020_QMCPy_CASSC.pdf) @ [2020 Chicago Area SIAM Student Conference](https://siam-northwestern.github.io/cassc_2020.html)
 - [QMCPy: A Quasi-Monte Carlo Software in Python 3.](./presentations/2020_QMCPy_PyDataChicago.pdf) @ [2020 PyData Chicago](https://chicago.pydata.org/)
+
+## Photo Gallery 
+
+<img src="assets/photos/example.jpg"/>
