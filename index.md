@@ -60,11 +60,15 @@ pip install qmcpy
 
 [QMCGenerators.jl](https://alegresor.github.io/QMCGenerators.jl/) is a Julia package which includes routines to generate and randomize quasi-random sequences used in Quasi-Monte Carlo. This supports the suite of low discrepancy sequence generators and randomization routines available in [QMCPy](https://qmcsoftware.github.io/QMCSoftware/), see the description above. This package is a translation and enhancement of Dirk Nuyens' [Magic Point Shop](https://people.cs.kuleuven.be/~dirk.nuyens/qmc-generators/).
 
-
-
 ![image](./assets/qmcgenerators_logo.svg)
 
 # Posters
+
+## Scientific Machine Learning for Exact Recovery of Nonlinear PDEs
+
+[2025 RIKEN-CCS](https://www.r-ccs.riken.jp/en/)
+
+<embed src="./posters/2025_CHONKNORIS_RIKENCCS.pdf" type="application/pdf" width="1000" height="1500"/>
 
 ## A Neural Surrogate Solver for Radiation Transfer
 
@@ -102,7 +106,6 @@ pip install qmcpy
 
 <embed src="./posters/2021_QMCPy_CAURS.pdf" type="application/pdf" width="1000" height="750"/>
 
-
 ## Other Posters
 
 - [QMCPy: A Quasi-Monte Carlo Software in Python 3.](./posters/2021_QMCPy_SIAMCSE.pdf) @ [2021 SIAM Conference on Computational Science and Engineering](https://www.siam.org/conferences/cm/conference/cse21)
@@ -111,23 +114,23 @@ pip install qmcpy
 
 # Presentations
 
-## Quasi-Monte Carlo and Fast Multi-Task Gaussian Process Regression
+## Fast Gaussian Processes
 
-2025 Caltech Lunch Group Seminar
+[2025 Conference on Monte Carlo Methods and Applications](https://fjhickernell.github.io/mcm2025/)
 
-<embed src="./presentations/2025_QMCFastMTGPs_Caltech.pdf" type="application/pdf" width="1000" height="600"/>
+<embed src="./presentations/2025_FastGPs_MCM.pdf" type="application/pdf" width="1000" height="600"/>
+
+## Scientific Machine Learning for Exact Recovery of Nonlinear PDEs
+
+[2025 RIKEN-CCS](https://www.r-ccs.riken.jp/en/)
+
+<embed src="./presentations/2025_CHONKNORIS_RIKENCCS.pdf" type="application/pdf" width="1000" height="600"/>
 
 ## Scientific Machine Learning of Radiative Transfer Equations
 
 2024 Illinois Institute of Technology, Department of Applied Mathematics, Computational Mathematics Seminar
 
 <embed src="./presentations/2024_RTEDeepONet_NeurIPSD3S3.pdf" type="application/pdf" width="1000" height="600"/>
-
-## Fast Gaussian Process Regression with Derivative Information using Lattice and Digital Sequences
-
-2024 Illinois Institute of Technology PhD Comprehensive Exam
-
-<embed src="./presentations/2024_PhDComp_IIT.pdf" type="application/pdf" width="1000" height="600"/>
 
 ## Probabilistic Models for PDEs with Random Coefficients
 
@@ -155,6 +158,8 @@ pip install qmcpy
 
 ## Other Presentations
 
+- [Quasi-Monte Carlo and Fast Multi-Task Gaussian Process Regression](./presentations/2025_QMCFastMTGPs_Caltech.pdf) @ 2025 Caltech Lunch Group Seminar
+- [Fast Gaussian Process Regression with Derivative Information using Lattice and Digital Sequences](./presentations/2024_PhDComp_IIT.pdf) @ 2024 Illinois Institute of Technology PhD Comprehensive Exam
 - [Fast Gaussian Process Regression for Smooth Functions using Lattice and Digital Sequences with Matching Kernels](./presentations/2024_HODNKernels_MCQMC.pdf) @ [2024 Monte Carlo and Quasi-Monte Carlo Methods in Scientific Computing Conference](https://uwaterloo.ca/monte-carlo-methods-scientific-computing-conference/)
 - [Walsh Functions and Spaces](./presentations/2024_WalshFunctions_IIT.pdf) @ 2024 Illinois Institute of Technology, Department of Applied Mathematics, Computational Mathematics and Multiscale Seminar
 - [Fast Physics Informed Kernel Methods for Nonlinear PDEs with Unknown Coefficients](./presentations/2024_kernel_PDE_opterator_learning_SampSci.pdf) @ [2024 SampSci Conference](https://sites.google.com/view/sampsci-2024/home?authuser=0)
