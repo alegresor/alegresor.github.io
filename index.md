@@ -68,7 +68,7 @@ pip install qmcpy
 
 [2025 RIKEN-CCS](https://www.r-ccs.riken.jp/en/)
 
-<embed src="./posters/2025_CHONKNORIS_RIKENCCS.pdf" type="application/pdf" width="1000" height="1500"/>
+<embed src="./posters/2025_CHONKNORIS_RIKENCCS.pdf" type="application/pdf" width="1000" height="750"/>
 
 ## A Neural Surrogate Solver for Radiation Transfer
 
