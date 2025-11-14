@@ -14,11 +14,11 @@ layout: default
 pip install fastgps 
 ```
 
-Gaussian process regression (GPR) models typically require $\mathcal{O}(n^2)$ storage and $\mathcal{O}(n^3)$ computations. [FastGPs](https://alegresor.github.io/fastgps)  implements GPR which requires only $\mathcal{O}(n)$ storage and $\mathcal{O}(n \log n)$ computations by pairing certain quasi-random sampling locations with matching kernels to yield structured Gram matrices. We support
+Gaussian process (GP) regression models typically require $\mathcal{O}(n^2)$ storage and $\mathcal{O}(n^3)$ computations. [FastGPs](https://alegresor.github.io/fastgps) implements GPs which requires only $\mathcal{O}(n)$ storage and $\mathcal{O}(n \log n)$ computations by pairing certain quasi-random sampling locations with matching kernels to yield structured Gram matrices. We support
 - GPU scaling,
 - batched inference,
 - robust hyperparameter optimization, and
-- multi-task GPR.
+- multitask GPs.
 
 ![image](./assets/2d_gp.svg)
 
@@ -72,7 +72,7 @@ pip install qmcpy
 
 ## A Neural Surrogate Solver for Radiation Transfer
 
-[2024 NeurIPS Workshop on Data-driven and Differentiable Simulations, Surrogates, and Solvers](https://neurips.cc/virtual/2024/workshop/84720)
+[2024 NeurIPS Workshop on Data-Driven and Differentiable Simulations, Surrogates, and Solvers](https://neurips.cc/virtual/2024/workshop/84720)
 
 <embed src="./posters/2024_RTEDeepONet_NeurIPSD3S3.pdf" type="application/pdf" width="1000" height="1500"/>
 
@@ -110,7 +110,7 @@ pip install qmcpy
 
 - [QMCPy: A Quasi-Monte Carlo Software in Python 3.](./posters/2021_QMCPy_SIAMCSE.pdf) @ [2021 SIAM Conference on Computational Science and Engineering](https://www.siam.org/conferences/cm/conference/cse21)
 
-- [Multi-threaded/-processed Requests to Cloud Services for Intelligent Address Standardization](./posters/2019_PRLAS_SIAMCSE.pdf) @ [2019 SIAM Conference on Computational Science and Engineering](https://www.siam.org/conferences/cm/conference/cse19)
+- [Multithreaded/multiprocessed Requests to Cloud Services for Intelligent Address Standardization](./posters/2019_PRLAS_SIAMCSE.pdf) @ [2019 SIAM Conference on Computational Science and Engineering](https://www.siam.org/conferences/cm/conference/cse19)
 
 # Presentations
 
@@ -158,7 +158,9 @@ pip install qmcpy
 
 ## Other Presentations
 
-- [Quasi-Monte Carlo and Fast Multi-Task Gaussian Process Regression](./presentations/2025_QMCFastMTGPs_Caltech.pdf) @ 2025 Caltech Lunch Group Seminar
+- [Scientific Machine Learning for Exact Recovery of Nonlinear PDEs](./presentations/2025_CHONKNORIS_CompMathIIT.pdf)  2024 Illinois Institute of Technology, Department of Applied Mathematics, Computational Mathematics Seminar
+- [Software for Quasi-Monte Carlo and Fast Gaussian Process Regression](./presentations/2025_FastMathUQ_Sandia.pdf) @ 2025 FastMathUQ Seminar at Sandia National Laboratories.
+- [Quasi-Monte Carlo and Fast Multitask Gaussian Process Regression](./presentations/2025_QMCFastMTGPs_Caltech.pdf) @ 2025 Caltech Lunch Group Seminar
 - [Fast Gaussian Process Regression with Derivative Information using Lattice and Digital Sequences](./presentations/2024_PhDComp_IIT.pdf) @ 2024 Illinois Institute of Technology PhD Comprehensive Exam
 - [Fast Gaussian Process Regression for Smooth Functions using Lattice and Digital Sequences with Matching Kernels](./presentations/2024_HODNKernels_MCQMC.pdf) @ [2024 Monte Carlo and Quasi-Monte Carlo Methods in Scientific Computing Conference](https://uwaterloo.ca/monte-carlo-methods-scientific-computing-conference/)
 - [Walsh Functions and Spaces](./presentations/2024_WalshFunctions_IIT.pdf) @ 2024 Illinois Institute of Technology, Department of Applied Mathematics, Computational Mathematics and Multiscale Seminar
@@ -172,7 +174,3 @@ pip install qmcpy
 - [(Quasi)-Monte Carlo Importance Sampling with QMCPy.](./presentations/2021_QMCPyIS_CompMathIIT.pdf) @ 2021 Illinois Institute of Technology, Department of Applied Mathematics, Computational Mathematics Seminar
 - [QMCPy: A Quasi-Monte Carlo Software in Python 3](./presentations/2020_QMCPy_CASSC.pdf) @ [2020 Chicago Area SIAM Student Conference](https://siam-northwestern.github.io/cassc_2020.html)
 - [QMCPy: A Quasi-Monte Carlo Software in Python 3.](./presentations/2020_QMCPy_PyDataChicago.pdf) @ [2020 PyData Chicago](https://chicago.pydata.org/)
-
-# Photo Gallery 
-
-<img src="assets/photos/IMG_4241.jpeg"/>
