@@ -114,6 +114,12 @@ pip install qmcpy
 
 # Presentations
 
+## Fast Bayesian Multilevel Quasi-Monte Carlo
+
+[2025 SIAM Conference on Analysis of Partial Differential Equations](https://www.siam.org/conferences-events/siam-conferences/pd25/)
+
+<embed src="./presentations/2025_BMLQMC_SIAMPD.pdf" type="application/pdf" width="1000" height="600"/>
+
 ## Fast Gaussian Processes
 
 [2025 Conference on Monte Carlo Methods and Applications](https://fjhickernell.github.io/mcm2025/)
@@ -158,7 +164,7 @@ pip install qmcpy
 
 ## Other Presentations
 
-- [Scientific Machine Learning for Exact Recovery of Nonlinear PDEs](./presentations/2025.CHONKNORIS_CompMathIIT.pdf)  2024 Illinois Institute of Technology, Department of Applied Mathematics, Computational Mathematics Seminar
+- [Scientific Machine Learning for Exact Recovery of Nonlinear PDEs](./presentations/2025_CHONKNORIS_CompMathIIT.pdf) @ 2025 Illinois Institute of Technology, Department of Applied Mathematics, Computational Mathematics Seminar
 - [Software for Quasi-Monte Carlo and Fast Gaussian Process Regression](./presentations/2025_FastMathUQ_Sandia.pdf) @ 2025 FastMathUQ Seminar at Sandia National Laboratories.
 - [Quasi-Monte Carlo and Fast Multitask Gaussian Process Regression](./presentations/2025_QMCFastMTGPs_Caltech.pdf) @ 2025 Caltech Lunch Group Seminar
 - [Fast Gaussian Process Regression with Derivative Information using Lattice and Digital Sequences](./presentations/2024_PhDComp_IIT.pdf) @ 2024 Illinois Institute of Technology PhD Comprehensive Exam
