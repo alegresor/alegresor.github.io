@@ -61,32 +61,38 @@
 \newentry{\normalfont{2017.08 - 2021.05}}{\textbf{B.S. in Applied Math, Minor in Computer Science.} IIT. Summa Cum Laude. GPA $3.94 / 4$.}
 
 \subsection{Experiences}
-\newentry{\normalfont{2025.01 - 2025.12}}{\textbf{DOE SCGSR Fellow in Applied Mathematics} at \textbf{Sandia National Laboratory} in Livermore, CA. I developed Gaussian process based scientific ML models for machine precision solutions to nonlinear PDEs. I built fast, scalable multitask Gaussian processes for multi-fidelity modeling. Both projects produced publications and open-source software with HPC support.}
-\newentry{\normalfont{2024.05 - 2024.08}}{\textbf{Scientific Machine Learning Researcher} at \textbf{FM (Factory Mutual Insurance Company).} I built scientific ML models, including Physics Informed Neural Networks (PINNs) and Deep Operator Networks (DeepONets), for solving Radiative Transport Equations (RTEs) used to speed up CFD fire dynamics simulations. Resulted in publication of \citetitle{sorokin.RTE_DeepONet}.}
-\newentry{\normalfont{2023.05 - 2023.08}}{\textbf{Graduate Intern} at \textbf{Los Alamos National Laboratory.} I modeled the solution processes of PDEs with random coefficients using efficient and error aware Gaussian processes. Resulted in publication of \citetitle{sorokin.gp4darcy}.}
-\newentry{\normalfont{2022.05 - 2022.08}}{\textbf{Givens Associate Intern} at \textbf{Argonne National Laboratory}. I researched methods to efficiently estimate failure probability using Monte Carlo with non-parametric importance sampling. Resulted in publication of \citetitle{sorokin.adaptive_prob_failure_GP}.}
-\newentry{\normalfont{2021.05 - 2021.08}}{\textbf{ML Engineer Intern} at \textbf{SigOpt, an Intel Company}. I developed novel meta-learning techniques for model-aware hyperparameter tuning via Bayesian optimization. In a six-person ML engineering team, I contributed production code and learned key elements of the AWS stack. Resulted in publication of \citetitle{sorokin.sigopt_mulch}.}
+\newentry{\normalfont{2025.01 - 2025.12}}{\textbf{DOE SCGSR Fellow in Applied Math} at \textbf{Sandia National Laboratory} in Livermore, CA. I produced scientific ML models for machine-precision solutions to nonlinear PDEs \cite{bacho.CHONKNORIS}. I developed scalable multi-fidelity Gaussian processes regression models and open-source software implementations \cite{sorokin.FastBayesianMLQMC,sorokin.fastgps_probnum25}.}
+\newentry{\normalfont{2024.05 - 2024.08}}{\textbf{Scientific Machine Learning Researcher} at \textbf{FM (Factory Mutual Insurance Company).} I deployed scientific ML models, including PINNs DeepONets, to accelerate CFD fire dynamics simulations \cite{sorokin.RTE_DeepONet}.}
+\newentry{\normalfont{2023.05 - 2023.08}}{\textbf{Graduate Intern} at \textbf{Los Alamos National Laboratory.} I modeled multi-fidelity solutions to PDE with random coefficients using efficient and error aware Gaussian processes regression models \cite{sorokin.gp4darcy}.}
+\newentry{\normalfont{2022.05 - 2022.08}}{\textbf{Givens Associate Intern} at \textbf{Argonne National Laboratory}. I derived error bounds and proposed a sequential sampling method for efficiently estimating failure probabilities with probabilistic models \cite{sorokin.adaptive_prob_failure_GP}.}
+\newentry{\normalfont{2021.05 - 2021.08}}{\textbf{ML Engineer Intern} at \textbf{SigOpt, an Intel Company}. In a six-person ML team, I contributed production code for meta-learning model-aware hyperparameter tuning via Bayesian optimization \cite{sorokin.sigopt_mulch}.}
 \newentry{\normalfont{2021.08 - 2025.01}}{\textbf{Teaching Assistant} at \textbf{IIT}. I led reviews for PhD qualifying exams in analysis and computational math.}
-% \newentry{2018 - 2021}{\textbf{Lead Developer} of \textbf{DNNB: The Deep Neural Network Builder in Python.} This research package implements deep learning models from scratch in Python. See \itlink{github.com/alegresor/DNNB}{https://github.com/alegresor/DNNB}.}
-% \newentry{2018 - Present}{\textbf{Administrative Assistant} for \textbf{The Center for Interdisciplinary Scientific Computation at IIT}. I scheduled lecture series and maintained information on the CISC website at \itlink{cos.iit.edu/cisc/}{https://cos.iit.edu/cisc/}.}
-% \newentry{2018 - 2019}{\textbf{Instructor} for the \textbf{STARS Computing Corp's Computer Discover Program.} I developed a curriculum for middle school and high school girls to learn programmatic thinking with Python.}
-
+\newentry{\normalfont{2018.05 - 2019.08}}{\textbf{Instructor} for the \textbf{STARS Computing Corps' Computer Discover Program.} I taught and developed curriculum for middle school and high school girls to learn programmatic thinking in Python.}
+\newentry{\normalfont{2022.09 - 2022.11}}{\textbf{Participant} in \textbf{Argonne National Laboratory's Course on AI Driven Science on Supercomputers}. Key topics included handling large scale data pipelines and parallel training for neural networks.} %\itlink{github.com/alegresor/ai-science-training-series}{https://github.com/alegresor/ai-science-training-series}.
 \subsection{Open-Source Software}
-\newentry{\texttt{QMCPy}}{\textbf{Quasi-Monte Carlo Python Software} (\href{https://qmcsoftware.github.io/QMCSoftware}{qmcsoftware.github.io/QMCSoftware}), lead developer. This package provides high quality quasi-random sequence generators, automatic variable transformations, adaptive stopping criteria algorithms, and diverse use cases. Over the past five years, this project has grown to dozens of collaborators and multiple publications \cite{sorokin.2025.ld_randomizations_ho_nets_fast_kernel_mats,choi.challenges_great_qmc_software,choi.QMC_software,sorokin.MC_vector_functions_integrals,sorokin.QMC_IS_QMCPy,hickernell.qmc_what_why_how,jain.bernstein_betting_confidence_intervals}.}
-\newentry{\texttt{FastGPs}}{\textbf{Scalable Gaussian Process Regression in Python} (\href{https://alegresor.github.io/fastgps}{alegresor.github.io/fastgps}). Gaussian process (GP) regression models typically require $\mathcal{O}(n^2)$ storage and $\mathcal{O}(n^3)$ computations. \texttt{FastGPs} implements GPs which requires only $\mathcal{O}(n)$ storage and $\mathcal{O}(n \log n)$ computations by pairing certain quasi-random sampling locations with matching kernels to yield structured Gram matrices. We support GPU scaling, batched inference, robust hyperparameter optimization, and multitask GPs.}
-\newentry{\texttt{QMCGenerators}}{\textbf{Quasi-Random Sequence Generators in Julia} (\href{https://alegresor.github.io/QMCGenerators.jl}{{alegresor.github.io/QMCGenerators.jl}}). This package includes routines to generate and randomize quasi-random sequences used in Quasi-Monte Carlo. Supported low discrepancy sequences include lattices with random shifts and digital nets (e.g. Sobol' points) with random digital shifts, linear matrix scrambling, nested uniform scrambling, and higher order construction through digital interlacing. These features are also supported in \texttt{QMCPy}.}
-\newentry{\texttt{AI on HPC}}{\textbf{AI Driven Science on Supercomputers Course} at \textbf{Argonne National Laboratory}.}
-%Key topics included handling large scale data pipelines and parallel training for neural networks.} %\itlink{github.com/alegresor/ai-science-training-series}{https://github.com/alegresor/ai-science-training-series}.
+
+\newentry{\texttt{QMCPy}}{\textbf{Quasi-Monte Carlo Python Software} (\href{https://qmcsoftware.github.io/QMCSoftware}{qmcsoftware.github.io/QMCSoftware}). I led dozens of collaborators across acadamia and industy to develop QMC sequence generators, automatic variable transformations, adaptive error estimation algorithms, and diverse use cases \cite{sorokin.thesis,sorokin.2025.ld_randomizations_ho_nets_fast_kernel_mats,choi.challenges_great_qmc_software,choi.QMC_software,sorokin.MC_vector_functions_integrals,sorokin.QMC_IS_QMCPy,hickernell.qmc_what_why_how,jain.bernstein_betting_confidence_intervals}.}
+\newentry{\texttt{FastGPs}}{\textbf{Scalable Gaussian Process Regression in Python} (\href{https://alegresor.github.io/fastgps}{alegresor.github.io/fastgps}). This supports GPU scaling, batched inference, robust hyperparameter optimization, multi-fidelity GPs, and efficient Bayesian cubature. \texttt{FastGPs} is the first package to implement GPs which require only $\mathcal{O}(n)$ storage and $\mathcal{O}(n \log n)$ computations compared to the tyipcal  $\mathcal{O}(n^2)$ storage and $\mathcal{O}(n^3)$ computations requirements.}
+\newentry{\scalebox{.9}{\texttt{QMCGenerators.jl}}}{\textbf{Randomized Quasi-Monte Carlo Sequences in Julia} (\href{https://alegresor.github.io/QMCGenerators.jl}{alegresor.github.io/QMCGenerators.jl}).}
+\newentry{\texttt{QMCToolsCL}}{\textbf{Randomized Quasi-Monte Carlo Sequences in C / OpenCL} (\href{https://qmcsoftware.github.io/QMCToolsCL/}{qmcsoftware.github.io/QMCToolsCL/}).}
+\newentry{\scalebox{.95}{\texttt{TorchOrthoPolys}}}{\textbf{Orthogonal Polynomials in PyTorch} (\href{https://alegresor.github.io/TorchOrthoPolys/}{alegresor.github.io/TorchOrthoPolys/}) with GPU support.}
 
 \subsection{Awards}
-% \newentry{\normalfont{2025}}{\textbf{DOE SCGSR Fellow in Applied Mathematics}, Sandia National Laboratory, Livermore California.}
-\newentry{\normalfont{2025}}{\textbf{Karl Menger Student Award for Exceptional Scholarship (Graduate)}, IIT.}
-\newentry{\normalfont{2024}}{\textbf{College of Computing Excellence in Dissertation Research}, IIT.}
+\newentry{\normalfont{2025.01 - 2025.12}}{\textbf{DOE SCGSR Fellow in Applied Math}, Sandia National Laboratory, Livermore California.}
+\newentry{\normalfont{2025.01}}{\textbf{Karl Menger Student Award for Exceptional Scholarship (Graduate)}, IIT.}
+\newentry{\normalfont{2024.01}}{\textbf{College of Computing Excellence in Dissertation Research}, IIT.}
 \newentry{\normalfont{2024}}{\textbf{Teaching Assistant Award}, IIT.}
-\newentry{\normalfont{2023}}{\textbf{Outstanding Math Poster}, Los Alamos National Laboratory.}
-%\newentry{\normalfont{2021}}{\textbf{Best Manuscript}, IIT Undergraduate Research Journal.}
-%\newentry{\normalfont{2020}}{\textbf{Karl Menger Student Award for Exceptional Scholarship}, IIT.}
-%\newentry{\normalfont{2017 - Present}}{\textbf{Deans List Member}, IIT.}
+\newentry{\normalfont{2023.08}}{\textbf{Outstanding Math Poster}, Los Alamos National Laboratory.}
+% \newentry{\normalfont{2021}}{\textbf{Best Manuscript}, IIT Undergraduate Research Journal.}
+% \newentry{\normalfont{2020}}{\textbf{Karl Menger Student Award for Exceptional Scholarship (Undergraduate)}, IIT.}
+\newentry{\normalfont{2017.08 - 2025.05}}{\textbf{Deans List Member}, IIT, every semester.}
+
+\subsection{References}
+\newentry{\normalfont{PhD Advisor}}{\textbf{Fred J. Hickernell} (\href{mailto:hickernell@iit.edu}{hickernell@iit.edu}) Vice Provost for Research and Professor of Applied Math, IIT.}
+\newentry{\normalfont{Mentor}}{\textbf{Nicolas W. Hengartner} (\href{mailto:nickh@lanl.gov}{nickh@lanl.gov}) Senior Scientist, Los Alamos National Lab.}
+\newentry{\normalfont{Mentor}}{\textbf{Michael J. McCourt} (\href{mailto:mikemccourt1234@gmail.com}{mikemccourt1234@gmail.com}) CTO and Co-Founder at Distributional.}
+\newentry{\normalfont{Mentor}}{\textbf{Pieterjan M. Robbe} (\href{pmrobbe@sandia.gov}{pmrobbe@sandia.gov}) Senior Member of Technical Staff, Sandia National Lab.}
+% \newentry{\normalfont{Mentor}}{\textbf{Vishwas Rao, PhD} (\href{mailto:vhebbur@anl.gov}{vhebbur@anl.gov}) Assistant Computational Mathematician, Argonne National Lab.}
 
 % \subsection{Coursework}
 % \newentry{Math}{
@@ -113,13 +119,6 @@
 %     Data Structures and Algorithms, 
 %     Object Oriented Programming I/II.}
 
-
-% \subsection{References}
-% \newentry{\href{mailto:hickernell@iit.edu}{hickernell@iit.edu}}{\textbf{Fred J. Hickernell, PhD} Vice Provost for Research and Professor of Applied Math, IIT.}
-% \newentry{\href{mailto:nickh@lanl.gov}{nickh@lanl.gov}}{\textbf{Nicolas W. Hengartner, PhD} Senior Scientist, Los Alamos National Laboratory.}
-% \newentry{\href{mailto:mikemccourt1234@gmail.com}{mikemccourt1234@gmail.com}}{\textbf{Michael J. McCourt, PhD} Co-Founder and CTO at Distributional.}
-% \newentry{\href{mailto:vhebbur@anl.gov}{vhebbur@anl.gov}}{\textbf{Vishwas Rao, PhD} Assistant Computational Mathematician, Argonne National Laboratory.}
-
 %%%%% COVER LETTER
 %\clearpage
 %\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
@@ -132,6 +131,7 @@
 %\makeletterclosing % Print letter signature
 
 \nocite{
+  sorokin.thesis,
   sorokin.fastgps_probnum25,
   hickernell.qmc_what_why_how,
   sorokin.MC_vector_functions_integrals,
@@ -148,7 +148,7 @@
   sorokin.adaptive_prob_failure_GP,
   jain.bernstein_betting_confidence_intervals,
   sorokin.FastBayesianMLQMC,
-  % bacho.CHONKNORIS.tmp,
+  bacho.CHONKNORIS,
 }
 
 \printbibliography[title={Publications}]
