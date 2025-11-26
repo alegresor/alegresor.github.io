@@ -114,6 +114,12 @@ pip install qmcpy
 
 # Presentations
 
+## Algorithms and Scientific Software for Quasi-Monte Carlo, Fast Gaussian Process Regression, and Scientific Machine Learning
+
+Illinois Institute of Technology PhD Thesis Exam
+
+<embed src="./presentations/2025_PhDThesis.pdf" type="application/pdf" width="1000" height="600"/>
+
 ## Fast Bayesian Multilevel Quasi-Monte Carlo
 
 [2025 SIAM Conference on Analysis of Partial Differential Equations](https://www.siam.org/conferences-events/siam-conferences/pd25/)
