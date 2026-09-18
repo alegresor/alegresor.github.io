@@ -117,6 +117,7 @@ Illinois Institute of Technology PhD Thesis Exam
 
 ## Other Presentations
 
+- [Quasi-Monte Carlo and Fast Gaussian Process Regression](./presentations/2026_QMC_FastGPs_Paris.pdf) @ [2026 UChicago Workshop on Mathematics, High-Performance Computing, And Neural Networks: New Perspectives For Molecular Simulation](https://events.uchicago.edu/event/271095-mathematics-high-performance-computing-and-neural)
 - [Scientific Machine Learning for Exact Recovery of Nonlinear PDEs](./presentations/2025_CHONKNORIS_CompMathIIT.pdf) @ 2025 Illinois Institute of Technology, Department of Applied Mathematics, Computational Mathematics Seminar
 - [Software for Quasi-Monte Carlo and Fast Gaussian Process Regression](./presentations/2025_FastMathUQ_Sandia.pdf) @ 2025 FastMathUQ Seminar at Sandia National Laboratories.
 - [Quasi-Monte Carlo and Fast Multitask Gaussian Process Regression](./presentations/2025_QMCFastMTGPs_Caltech.pdf) @ 2025 Caltech Lunch Group Seminar
@@ -137,6 +138,12 @@ Illinois Institute of Technology PhD Thesis Exam
 - [QMCPy: A Quasi-Monte Carlo Software in Python 3.](./presentations/2020_QMCPy_PyDataChicago.pdf) @ [2020 PyData Chicago](https://chicago.pydata.org/)
 
 # Posters
+
+## Optimal Monte Carlo, Accelerated Probabilistic Modeling, and Scientific Machine Learning
+
+[2026 UChicago Science and Engineering Industry Expo](https://grad.uchicago.edu/career-development/for-employers/science-and-engineering-industry-expo/) 
+
+<embed src="./posters/2026_Research_UChicagoSEIE.pdf" type="application/pdf" width="1000" height="750"/>
 
 ## Scientific Machine Learning for Exact Recovery of Nonlinear PDEs
 
@@ -168,12 +175,6 @@ Illinois Institute of Technology PhD Thesis Exam
 
 <embed src="./posters/2023_PFGPCredibleIntervals_Own.pdf" type="application/pdf" width="1000" height="750"/>
 
-## Robust Approximation of Sensitivity Indices in QMCPy
-
-[2022 Conference on Sensitivity Analysis of Model Output (SAMO)](https://samo2022.math.fsu.edu/)
-
-<embed src="./posters/2022_SensitivityIndicesQMCPy_SAMO.pdf" type="application/pdf" width="1000" height="750"/>
-
 ## QMCPy: Quasi-Monte Carlo Software in Python
 
 2021 Chicago Area Undergraduate Research Symposium
@@ -182,6 +183,6 @@ Illinois Institute of Technology PhD Thesis Exam
 
 ## Other Posters
 
+- [Robust Approximation of Sensitivity Indices in QMCPy.](./posters/2022_SensitivityIndicesQMCPy_SAMO.pdf) @ [2022 Conference on Sensitivity Analysis of Model Output (SAMO)](https://samo2022.math.fsu.edu/)
 - [QMCPy: A Quasi-Monte Carlo Software in Python 3.](./posters/2021_QMCPy_SIAMCSE.pdf) @ [2021 SIAM Conference on Computational Science and Engineering](https://www.siam.org/conferences/cm/conference/cse21)
-
 - [Multithreaded/multiprocessed Requests to Cloud Services for Intelligent Address Standardization](./posters/2019_PRLAS_SIAMCSE.pdf) @ [2019 SIAM Conference on Computational Science and Engineering](https://www.siam.org/conferences/cm/conference/cse19)
