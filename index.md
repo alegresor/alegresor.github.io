@@ -2,6 +2,14 @@
 layout: default
 ---
 
+<div markdown="1" style="overflow:hidden;margin:1.5rem 0;">
+  <img src="./assets/photos/headshot_only.JPG" alt="Aleksei Sorokin"
+       style="float:left;width:180px;aspect-ratio:1/1;object-fit:cover;border-radius:8px;margin:0 1.25rem 0.75rem 0;">
+  I am a postdoctoral scholar in Statistics at the University of Chicago working on
+  quasi-Monte Carlo methods, fast Gaussian process regression, and scientific machine learning.
+</div>
+
+
 * Will be replaced with the ToC, excluding the "Contents" header
 {:toc}
 
