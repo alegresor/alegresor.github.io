@@ -16,4 +16,4 @@
 .vscode/*
 *.DS_Store
 *-SAVE-ERROR
-resume/ags.bib.original
+*.bib.original

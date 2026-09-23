@@ -1,0 +1,52 @@
+\usepackage[scale=0.8, top=.5cm, bottom=.5cm, left=.725cm, right=.725cm]{geometry} 
+\usepackage{multicol}
+\usepackage{lipsum}
+\usepackage[hyperref]{}
+
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+
+\usepackage{etoolbox}
+\patchcmd{\makehead}% <cmd>
+  {1\textwidth}% <search>
+  {\textwidth}% <replace>
+  {}{}
+
+\name{\textcolor{color1}{Aleksei Gregory Sorokin}}{}                           
+%\address{Chicago, IL, USA}{}{}
+\phone[mobile]{+1~(630)~297~6261}      
+\email{sorokin@uchicago.edu}
+\homepage{alegresor.github.io}
+\social[linkedin]{aleksei-sorokin}
+\social[github]{alegresor}
+\social[googlescholar]{q9O8NFkAAAAJ}
+\extrainfo{US Citizen}
+
+\usepackage[
+    backend=biber,
+    %defernumbers=true,
+    sorting=ydnt,
+    maxbibnames=99
+  ]{biblatex}
+\renewcommand*{\bibfont}{\small}
+\addbibresource{ags.bib}
+
+\newcommand*{\newentry}[3][.25em]{%
+  \begin{tabular}[t]{@{}p{0.15\textwidth}@{\hspace{\separatorcolumnwidth}}}%
+    \raggedleft\hintstyle{#2}%
+  \end{tabular}%
+  \begin{tabular}[t]{@{}p{\dimexpr0.85\textwidth-\separatorcolumnwidth}@{}}
+     #3
+  \end{tabular}%
+  \par\addvspace{#1}}
+
+\usepackage{eso-pic}
+\AddToShipoutPictureFG*{%       % starred = first page only; drop * for every page
+  \AtPageUpperLeft{%
+    \raisebox{-.5cm}{%          % vertical offset from top edge
+      \makebox[\paperwidth][r]{%
+        \color{color1}\sffamily\bfseries\Large\doclabel\hspace*{.25cm}% right offset
+      }%
+    }%
+  }%
+}
