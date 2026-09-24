@@ -46,25 +46,32 @@
   organization        = {Springer},
 }
 
-@article{GalCEM.software,
-  title               = {Gal{CEM}: galactic chemical evolution model},
-  author              = {Gjergo, Eda and Sorokin, Aleksei G. and Ruth, Anthony and Spitoni, Emanuele and Matteucci, Francesca and Fan, Xilong and Liang, Jinning and Limongi, Marco and Yamazaki, Yuta and Kusakabe, Motohiko and others},
-  year                = {2023},
-  journal             = {Astrophysics Source Code Library},
-  pages               = {ascl--2301},
-  url                 = {https://ascl.net/2301.022},
+@software{GalCEM.software,
+       author = {{Gjergo}, Eda and {Sorokin}, Aleksei G. and {Ruth}, Anthony and {Spitoni}, Emanuele and {Matteucci}, Francesca and {Fan}, Xilong and {Liang}, Jinning and {Limongi}, Marco and {Yamazaki}, Yuta and {Kusakabe}, Motohiko and {Kajino}, Toshitaka},
+        title = "{Gal{CEM}: GALactic Chemical Evolution Model}",
+ howpublished = {Astrophysics Source Code Library, record ascl:2301.022},
+         year = 2023,
+        month = jan,
+          eid = {ascl:2301.022},
+archivePrefix = {ascl},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2023ascl.soft01022G},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
+
+
 @misc{gjergo.GalCEM1,
-  title               = {Gal{CEM}. {I}. {A}n Open-source Detailed Isotopic Chemical Evolution Code},
-  author              = {Eda Gjergo and Aleksei G. Sorokin and Anthony Ruth and Emanuele Spitoni and Francesca Matteucci and Xilong Fan and Jinning Liang and Marco Limongi and Yuta Yamazaki and Motohiko Kusakabe and Toshitaka Kajino},
-  year                = {2023},
-  journal             = {The Astrophysical Journal Supplement Series},
-  publisher           = {The American Astronomical Society},
-  volume              = {264},
-  number              = {2},
-  pages               = {44},
-  doi                 = {10.3847/1538-4365/aca7c7},
+doi = {10.3847/1538-4365/aca7c7},
+url = {https://doi.org/10.3847/1538-4365/aca7c7},
+year = {2023},
+month = {feb},
+publisher = {The American Astronomical Society},
+volume = {264},
+number = {2},
+pages = {44},
+author = {Gjergo, Eda and Sorokin, Aleksei G. and Ruth, Anthony and Spitoni, Emanuele and Matteucci, Francesca and Fan, Xilong and Liang, Jinning and Limongi, Marco and Yamazaki, Yuta and Kusakabe, Motohiko and Kajino, Toshitaka},
+title = {Gal{CEM}. {I}. {A}n Open-source Detailed Isotopic Chemical Evolution Code},
+journal = {The Astrophysical Journal Supplement Series},
 }
 
 @article{sorokin.sigopt_mulch,
@@ -72,19 +79,20 @@
   author              = {Aleksei G. Sorokin and Xinran Zhu and Eric Hans Lee and Bolong Cheng},
   year                = {2023},
   journal             = {Knowledge-Based Systems},
+  volume              = {273},
   pages               = {110604},
   doi                 = {10.1016/j.knosys.2023.110604},
   issn                = {0950-7051},
 }
 
-@article{hickernell.qmc_what_why_how,
+@inproceedings{hickernell.qmc_what_why_how,
   title               = {Quasi-{M}onte {C}arlo methods: what, why, and how?},
   author              = {Fred J. Hickernell and Nathan Kirk and Aleksei G. Sorokin},
-  year                = {2024},
+  year                = {2026},
   booktitle           = {{M}onte {C}arlo and Quasi-{M}onte {C}arlo Methods 2024},
   pages               = {3--40},
   doi                 = {10.1007/978-3-032-10590-5_1},
-  editor              = {Christiane Lemieux, Ben Feng},
+  editor              = {Christiane Lemieux and Ben Feng},
   organization        = {Springer},
 }
 
@@ -120,14 +128,14 @@
   doi                 = {10.1088/1674-4527/ae1f79},
 }
 
-@article{sorokin.2025.ld_randomizations_ho_nets_fast_kernel_mats,
+@misc{sorokin.2025.ld_randomizations_ho_nets_fast_kernel_mats,
   title               = {{QMCPy}: a {P}ython package for randomized low-discrepancy sequences, quasi-{M}onte {C}arlo, and fast kernel methods},
   author              = {Aleksei G. Sorokin},
   year                = {2025},
   doi                 = {10.48550/arXiv.2502.14256},
 }
 
-@article{sorokin.FastBayesianMLQMC,
+@misc{sorokin.FastBayesianMLQMC,
   title               = {Fast {B}ayesian multilevel quasi-{M}onte {C}arlo},
   author              = {Aleksei G. Sorokin and Pieterjan Robbe and Gianluca Geraci and Michael S. Eldred and Fred J. Hickernell},
   year                = {2025},
@@ -164,7 +172,6 @@
   pages               = {115240},
   doi                 = {10.1016/j.jcp.2026.115240},
   issn                = {0021-9991},
-  url                 = {https://www.sciencedirect.com/science/article/pii/S0021999126005917},
 }
 
 @article{jain.bernstein_betting_confidence_intervals,
@@ -178,18 +185,16 @@
   pages               = {iaag003},
   doi                 = {10.1093/imaiai/iaag003},
   issn                = {2049-8772},
-  url                 = {https://doi.org/10.1093/imaiai/iaag003},
-  eprint              = {https://academic.oup.com/imaiai/article-pdf/15/1/iaag003/67259522/iaag003.pdf},
 }
 
 @misc{sorokin.2026.fast_MTGPs,
-  title               = {Fast multitask {G}aussian process regression},
-  author              = {Aleksei G. Sorokin and Pieterjan Robbe and Fred J. Hickernell},
+  title               = {Fast multitask {G}aussian process, with application to surrogate modeling of the quark-gluon plasma},
+  author              = {Aleksei G. Sorokin and Pieterjan Robbe and Yen-Chun Liu and Simon Mak and Fred J. Hickernell},
   year                = {2026},
   doi                 = {10.48550/arXiv.2603.16014},
 }
 
-@article{sorokin.adaptive_prob_failure_GP,
+@misc{sorokin.adaptive_prob_failure_GP,
   title               = {Credible intervals for probability of failure with {G}aussian processes},
   author              = {Aleksei G. Sorokin and Vishwas Rao},
   year                = {2026},
@@ -206,5 +211,4 @@
   number              = {117},
   pages               = {9705},
   doi                 = {10.21105/joss.09705},
-  url                 = {https://doi.org/10.21105/joss.09705},
 }
