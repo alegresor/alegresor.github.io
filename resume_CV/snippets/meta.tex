@@ -42,12 +42,14 @@
   \par\addvspace{#1}}
 
 \usepackage{eso-pic}
-\AddToShipoutPictureFG*{%       % starred = first page only; drop * for every page
+\AddToShipoutPictureFG{%
+  \ifnum\ReadonlyShipoutCounter=\ifcoverletter 2\else 1\fi\relax
   \AtPageUpperLeft{%
-    \raisebox{-.5cm}{%          % vertical offset from top edge
+    \raisebox{-.5cm}{%
       \makebox[\paperwidth][r]{%
-        \color{color1}\sffamily\bfseries\Large\doclabel\hspace*{.25cm}% right offset
+        \color{color1}\sffamily\bfseries\Large\doclabel\hspace*{.25cm}%
       }%
     }%
   }%
+  \fi
 }

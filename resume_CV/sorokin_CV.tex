@@ -6,11 +6,16 @@
 \newif\ifcv
 \cvtrue
 
+\newif\ifcoverletter
+\coverletterfalse % coverlettertrue,coverletterfalse
+
 \input snippets/meta.tex
 
 \begin{document}
 
-% \input snippets/cover_letter.tex
+\ifcoverletter
+\input snippets/cover_letter.tex
+\fi
 
 \makecvtitle
 \vspace{-1cm} 
