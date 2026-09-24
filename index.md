@@ -95,7 +95,7 @@ Illinois Institute of Technology PhD Thesis Exam
 
 [2025 International Conference on Monte Carlo Methods and Applications](https://fjhickernell.github.io/mcm2025/)
 
-<embed src="./presentations/2025_FastGPs_MCM.pd#view=Fit&zoom=page-fit&toolbar=0&navpanes=0" type="application/pdf" style="width:100%;aspect-ratio:16/9;"/>
+<embed src="./presentations/2025_FastGPs_MCM.pdf#view=Fit&zoom=page-fit&toolbar=0&navpanes=0" type="application/pdf" style="width:100%;aspect-ratio:16/9;"/>
 
 ## Scientific Machine Learning for Exact Recovery of Nonlinear PDEs
 
