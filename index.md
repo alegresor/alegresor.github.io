@@ -36,7 +36,7 @@ Gaussian process (GP) regression models typically require $\mathcal{O}(n^2)$ sto
 pip install qmcpy 
 ```
 
-[QMCPy](https://qmcsoftware.github.io/QMCSoftware/) is a Python package for Quasi-Monte Carlo (QMC) which contains
+[QMCPy](https://qmcsoftware.org/qmcpy/) is a Python package for Quasi-Monte Carlo (QMC) which contains
 - quasi-random (low discrepancy) sequence generators and randomization routines, including 
     - *lattices* with
         - extensible constructions
@@ -66,7 +66,7 @@ pip install qmcpy
 ] add QMCGenerators
 ```
 
-[QMCGenerators.jl](https://alegresor.github.io/QMCGenerators.jl/) is a Julia package which includes routines to generate and randomize quasi-random sequences used in Quasi-Monte Carlo. This supports the suite of low discrepancy sequence generators and randomization routines available in [QMCPy](https://qmcsoftware.github.io/QMCSoftware/), see the description above. This package is a translation and enhancement of Dirk Nuyens' [Magic Point Shop](https://people.cs.kuleuven.be/~dirk.nuyens/qmc-generators/).
+[QMCGenerators.jl](https://alegresor.github.io/QMCGenerators.jl/) is a Julia package which includes routines to generate and randomize quasi-random sequences used in Quasi-Monte Carlo. This supports the suite of low discrepancy sequence generators and randomization routines available in [QMCPy](https://qmcsoftware.org/qmcpy/), see the description above. This package is a translation and enhancement of Dirk Nuyens' [Magic Point Shop](https://people.cs.kuleuven.be/~dirk.nuyens/qmc-generators/).
 
 ![image](./assets/qmcgenerators_logo.svg)
 
