@@ -77,49 +77,49 @@ pip install qmcpy
 
 [2026 SIAM Conference on Uncertainty Quantification](https://www.siam.org/conferences-events/siam-conferences/uq26/)
 
-<embed src="./presentations/2026_FastMTGPs_SIAMUQ.pdf" type="application/pdf" width="100%" height="600"/>
+<embed src="./presentations/2026_FastMTGPs_SIAMUQ.pdf#view=Fit&zoom=page-fit&toolbar=0&navpanes=0" type="application/pdf" style="width:100%;aspect-ratio:16/9;"/>
 
 ## Algorithms and Scientific Software for Quasi-Monte Carlo, Fast Gaussian Process Regression, and Scientific Machine Learning
 
 Illinois Institute of Technology PhD Thesis Exam
 
-<embed src="./presentations/2025_PhDThesis.pdf" type="application/pdf" width="100%" height="600"/>
+<embed src="./presentations/2025_PhDThesis.pdf#view=Fit&zoom=page-fit&toolbar=0&navpanes=0" type="application/pdf" style="width:100%;aspect-ratio:16/9;"/>
 
 ## Fast Bayesian Multilevel Quasi-Monte Carlo
 
 [2025 SIAM Conference on Analysis of Partial Differential Equations](https://www.siam.org/conferences-events/siam-conferences/pd25/)
 
-<embed src="./presentations/2025_BMLQMC_SIAMPD.pdf" type="application/pdf" width="100%" height="600"/>
+<embed src="./presentations/2025_BMLQMC_SIAMPD.pdf#view=Fit&zoom=page-fit&toolbar=0&navpanes=0" type="application/pdf" style="width:100%;aspect-ratio:16/9;"/>
 
 ## Fast Gaussian Processes
 
 [2025 International Conference on Monte Carlo Methods and Applications](https://fjhickernell.github.io/mcm2025/)
 
-<embed src="./presentations/2025_FastGPs_MCM.pdf" type="application/pdf" width="100%" height="600"/>
+<embed src="./presentations/2025_FastGPs_MCM.pd#view=Fit&zoom=page-fit&toolbar=0&navpanes=0" type="application/pdf" style="width:100%;aspect-ratio:16/9;"/>
 
 ## Scientific Machine Learning for Exact Recovery of Nonlinear PDEs
 
 [2025 RIKEN-CCS](https://www.r-ccs.riken.jp/en/)
 
-<embed src="./presentations/2025_CHONKNORIS_RIKENCCS.pdf" type="application/pdf" width="100%" height="600"/>
+<embed src="./presentations/2025_CHONKNORIS_RIKENCCS.pdf#view=Fit&zoom=page-fit&toolbar=0&navpanes=0" type="application/pdf" style="width:100%;aspect-ratio:16/9;"/>
 
 ## Scientific Machine Learning of Radiative Transfer Equations
 
 2024 Illinois Institute of Technology, Department of Applied Mathematics, Computational Mathematics Seminar
 
-<embed src="./presentations/2024_RTEDeepONet_NeurIPSD3S3.pdf" type="application/pdf" width="100%" height="600"/>
+<embed src="./presentations/2024_RTEDeepONet_NeurIPSD3S3.pdf#view=Fit&zoom=page-fit&toolbar=0&navpanes=0" type="application/pdf" style="width:100%;aspect-ratio:16/9;"/>
 
 ## Probabilistic Models for PDEs with Random Coefficients
 
 2023 Los Alamos National Laboratory Student Lightning Talks
 
-<embed src="./presentations/2023_GP4DarcyPDE_LANL.pdf" type="application/pdf" width="100%" height="600"/>
+<embed src="./presentations/2023_GP4DarcyPDE_LANL.pdf#view=Fit&zoom=page-fit&toolbar=0&navpanes=0" type="application/pdf" style="width:100%;aspect-ratio:16/9;"/>
 
 ## Adaptive Probability of Failure Estimation with Gaussian Processes
 
 [2023 SIAM Conference on Computational Science and Engineering](https://www.siam.org/conferences/cm/conference/cse23)
 
-<embed src="./presentations/2023_PFGPErrorBounds_SIAMCSE.pdf" type="application/pdf" width="100%" height="600"/>
+<embed src="./presentations/2023_PFGPErrorBounds_SIAMCSE.pdf#view=Fit&zoom=page-fit&toolbar=0&navpanes=0" type="application/pdf" style="width:100%;aspect-ratio:16/9;"/>
 
 ## Other Presentations
 
@@ -149,43 +149,43 @@ Illinois Institute of Technology PhD Thesis Exam
 
 [2026 UChicago Science and Engineering Industry Expo](https://grad.uchicago.edu/career-development/for-employers/science-and-engineering-industry-expo/)
 
-<embed src="./posters/2026_Research_UChicagoSEIE.pdf" type="application/pdf" width="100%" height="750"/>
+<embed src="./posters/2026_Research_UChicagoSEIE.pdf#view=Fit&zoom=page-fit&toolbar=0&navpanes=0" type="application/pdf" style="width:100%;aspect-ratio:4/3;"/>
 
 ## Scientific Machine Learning for Exact Recovery of Nonlinear PDEs
 
 [2025 RIKEN-CCS](https://www.r-ccs.riken.jp/en/)
 
-<embed src="./posters/2025_CHONKNORIS_RIKENCCS.pdf" type="application/pdf" width="100%" height="750"/>
+<embed src="./posters/2025_CHONKNORIS_RIKENCCS.pdf#view=Fit&zoom=page-fit&toolbar=0&navpanes=0" type="application/pdf" style="width:100%;aspect-ratio:4/3;"/>
 
 ## A Neural Surrogate Solver for Radiation Transfer
 
 [2024 NeurIPS Workshop on Data-Driven and Differentiable Simulations, Surrogates, and Solvers](https://neurips.cc/virtual/2024/workshop/84720)
 
-<embed src="./posters/2024_RTEDeepONet_NeurIPSD3S3.pdf" type="application/pdf" width="100%" height="1500"/>
+<embed src="./posters/2024_RTEDeepONet_NeurIPSD3S3.pdf#view=Fit&zoom=page-fit&toolbar=0&navpanes=0" type="application/pdf" style="width:100%;aspect-ratio:2/3;"/>
 
 ## Fast Gaussian Process Regression for Smooth Functions
 
 2024 Illinois Institute of Technology Menger Day
 
-<embed src="./posters/2024_FastGP_MengerIIT.pdf" type="application/pdf" width="100%" height="750"/>
+<embed src="./posters/2024_FastGP_MengerIIT.pdf#view=Fit&zoom=page-fit&toolbar=0&navpanes=0" type="application/pdf" style="width:100%;aspect-ratio:4/3;"/>
 
 ## Probabilistic Models for PDEs with Random Coefficients
 
 2023 Los Alamos National Laboratory Student Symposium
 
-<embed src="./posters/2023_GP4DarcyPDE_LANL.pdf" type="application/pdf" width="100%" height="750"/>
+<embed src="./posters/2023_GP4DarcyPDE_LANL.pdf#view=Fit&zoom=page-fit&toolbar=0&navpanes=0" type="application/pdf" style="width:100%;aspect-ratio:4/3;"/>
 
 ## Credible Intervals for Probability of Failure with Gaussian Processes
 
 2022 Illinois Institute of Technology Welcome Week Student Research Poster Day
 
-<embed src="./posters/2023_PFGPCredibleIntervals_Own.pdf" type="application/pdf" width="100%" height="750"/>
+<embed src="./posters/2023_PFGPCredibleIntervals_Own.pdf#view=Fit&zoom=page-fit&toolbar=0&navpanes=0" type="application/pdf" style="width:100%;aspect-ratio:4/3;"/>
 
 ## QMCPy: Quasi-Monte Carlo Software in Python
 
 2021 Chicago Area Undergraduate Research Symposium
 
-<embed src="./posters/2021_QMCPy_CAURS.pdf" type="application/pdf" width="100%" height="750"/>
+<embed src="./posters/2021_QMCPy_CAURS.pdf#view=Fit&zoom=page-fit&toolbar=0&navpanes=0" type="application/pdf" style="width:100%;aspect-ratio:4/3;"/>
 
 ## Other Posters
 
