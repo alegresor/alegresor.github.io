@@ -1,6 +1,6 @@
 % rebiber -i main.bib
 % https://flamingtempura.github.io/bibtex-tidy/index.html
-% bibtex-tidy --omit=abstract --curly --months --align=20 --sort=year,key --duplicates=key,doi,citation,abstract --merge=overwrite --sort-fields --trailing-commas --encode-urls --no-tidy-comments --remove-empty-fields resume/ags.bib
+% bibtex-tidy --omit=abstract --curly --months --align=20 --sort=year,key --duplicates=key,doi,citation,abstract --merge=overwrite --sort-fields --trailing-commas --encode-urls --no-tidy-comments --remove-empty-fields resume_CV/ags.bib
 
 @article{sorokin.QMC_IS_QMCPy,
   title               = {({Q}uasi-){M}onte {C}arlo Importance Sampling with {QMCPy}},
@@ -28,10 +28,10 @@
   author              = {{Gjergo}, Eda and {Sorokin}, Aleksei G. and {Ruth}, Anthony and {Spitoni}, Emanuele and {Matteucci}, Francesca and {Fan}, Xilong and {Liang}, Jinning and {Limongi}, Marco and {Yamazaki}, Yuta and {Kusakabe}, Motohiko and {Kajino}, Toshitaka},
   year                = {2023},
   month               = jan,
+  url                 = {https://ui.adsabs.harvard.edu/abs/2023ascl.soft01022G},
   howpublished        = {Astrophysics Source Code Library, record ascl:2301.022},
   eid                 = {ascl:2301.022},
   archiveprefix       = {ascl},
-  url                 = {https://ui.adsabs.harvard.edu/abs/2023ascl.soft01022G},
   adsnote             = {Provided by the SAO/NASA Astrophysics Data System},
 }
 
@@ -43,8 +43,8 @@
   journal             = {The Astrophysical Journal Supplement Series},
   volume              = {264},
   number              = {2},
+  pages               = {44},
   doi                 = {10.3847/1538-4365/aca7c7},
-  eid                 = {44},
 }
 
 @article{sorokin.sigopt_mulch,
@@ -63,10 +63,10 @@
   author              = {Choi, Sou-Cheng T. and Ding, Yuhan and Hickernell, Fred J. and Rathinavel, Jagadeeswaran and Sorokin, Aleksei G.},
   year                = {2024},
   booktitle           = {{M}onte {C}arlo and Quasi-{M}onte {C}arlo Methods 2022},
+  publisher           = {Springer},
   pages               = {209--222},
   doi                 = {10.1007/978-3-031-59762-6_9},
   editor              = {Hinrichs, Aicke and Kritzer, Peter and Pillichshammer, Friedrich},
-  publisher           = {Springer},
 }
 
 @article{sorokin.gp4darcy,
@@ -85,10 +85,10 @@
   author              = {Sorokin, Aleksei G. and Rathinavel, Jagadeeswaran},
   year                = {2024},
   booktitle           = {{M}onte {C}arlo and Quasi-{M}onte {C}arlo Methods 2022},
+  publisher           = {Springer},
   pages               = {583--599},
   doi                 = {10.1007/978-3-031-59762-6_29},
   editor              = {Hinrichs, Aicke and Kritzer, Peter and Pillichshammer, Friedrich},
-  publisher           = {Springer},
 }
 
 @inproceedings{sorokin.RTE_DeepONet,
@@ -97,19 +97,6 @@
   year                = {2024},
   booktitle           = {NeurIPS 2024 Workshop on Data-Driven and Differentiable Simulations, Surrogates, and Solvers},
   url                 = {https://openreview.net/forum?id=SHidR8UMKo},
-}
-
-@article{gjergo2025massive,
-  title               = {Massive Star Formation at Supersolar Metallicities: Constraints on the Initial Mass Function},
-  author              = {Gjergo, Eda and Zhang, Zhi-Yu and Kroupa, Pavel and Sorokin, Aleksei G. and Yan, Zhiqiang and Guo, Ziyi and Jerabkova, Tereza and Zonoozi, Akram Hasani and Haghi, Hosein},
-  year                = {2025},
-  month               = {01},
-  journal             = {Research in Astronomy and Astrophysics},
-  publisher           = {National Astromonical Observatories, CAS and IOP Publishing},
-  volume              = {26},
-  number              = {2},
-  pages               = {025003},
-  doi                 = {10.1088/1674-4527/ae1f79},
 }
 
 @misc{sorokin.2025.ld_randomizations_ho_nets_fast_kernel_mats,
@@ -158,15 +145,28 @@
   issn                = {0021-9991},
 }
 
+@article{gjergo2025massive,
+  title               = {Massive Star Formation at Supersolar Metallicities: Constraints on the Initial Mass Function},
+  author              = {Gjergo, Eda and Zhang, Zhi-Yu and Kroupa, Pavel and Sorokin, Aleksei G. and Yan, Zhiqiang and Guo, Ziyi and Jerabkova, Tereza and Zonoozi, Akram Hasani and Haghi, Hosein},
+  year                = {2026},
+  month               = {01},
+  journal             = {Research in Astronomy and Astrophysics},
+  publisher           = {National Astromonical Observatories, CAS and IOP Publishing},
+  volume              = {26},
+  number              = {2},
+  pages               = {025003},
+  doi                 = {10.1088/1674-4527/ae1f79},
+}
+
 @inproceedings{hickernell.qmc_what_why_how,
   title               = {Quasi-{M}onte {C}arlo methods: what, why, and how?},
   author              = {Fred J. Hickernell and Nathan Kirk and Aleksei G. Sorokin},
   year                = {2026},
   booktitle           = {{M}onte {C}arlo and Quasi-{M}onte {C}arlo Methods 2024},
+  publisher           = {Springer},
   pages               = {3--40},
   doi                 = {10.1007/978-3-032-10590-5_1},
   editor              = {Christiane Lemieux and Ben Feng},
-  publisher           = {Springer},
 }
 
 @article{jain.bernstein_betting_confidence_intervals,
